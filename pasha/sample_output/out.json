@@ -1,0 +1,355 @@
+[
+  {
+    "shape_params": [
+      "blue", 
+      "green", 
+      "cyan", 
+      "magent2a", 
+      "yellow", 
+      "red"
+    ], 
+    "states": [
+      [
+        [
+          0.0, 
+          0.1, 
+          0.0
+        ], 
+        [
+          0.1, 
+          0.1, 
+          0.1
+        ], 
+        [
+          -0.062437, 
+          0.1, 
+          -0.419449
+        ], 
+        [
+          -0.656949, 
+          0.1, 
+          -0.788469
+        ], 
+        [
+          0.214662, 
+          0.1, 
+          0.92672
+        ], 
+        [
+          0.79096, 
+          0.1, 
+          0.911159
+        ], 
+        [
+          -0.723438, 
+          0.1, 
+          0.247144
+        ], 
+        [
+          0.635309, 
+          0.1, 
+          -0.274163
+        ], 
+        [
+          -0.361093, 
+          0.1, 
+          -0.656966
+        ], 
+        [
+          -0.515554, 
+          0.1, 
+          0.91973
+        ], 
+        [
+          -0.390042, 
+          0.1, 
+          0.427794
+        ], 
+        [
+          0.628212, 
+          0.1, 
+          0.245258
+        ], 
+        [
+          -0.584956, 
+          0.1, 
+          -0.031866
+        ], 
+        [
+          0.585868, 
+          0.1, 
+          0.0162
+        ], 
+        [
+          -0.6895, 
+          0.1, 
+          0.788071
+        ], 
+        [
+          0.295405, 
+          0.1, 
+          0.090149
+        ], 
+        [
+          0.700055, 
+          0.1, 
+          0.67225
+        ], 
+        [
+          -0.044488, 
+          0.1, 
+          -0.65464
+        ], 
+        [
+          -0.065071, 
+          0.1, 
+          0.699818
+        ], 
+        [
+          -0.058202, 
+          0.1, 
+          0.078393
+        ]
+      ], 
+      [
+        [
+          0.0, 
+          0.1, 
+          0.0
+        ], 
+        [
+          0.1, 
+          0.1, 
+          0.1
+        ], 
+        [
+          -0.062437, 
+          0.1, 
+          -0.419449
+        ], 
+        [
+          -0.656949, 
+          0.1, 
+          -0.788469
+        ], 
+        [
+          0.214662, 
+          0.1, 
+          0.92672
+        ], 
+        [
+          -0.166667, 
+          0.1, 
+          0.333333
+        ], 
+        [
+          -0.723438, 
+          0.1, 
+          0.247144
+        ], 
+        [
+          0.635309, 
+          0.1, 
+          -0.274163
+        ], 
+        [
+          -0.361093, 
+          0.1, 
+          -0.656966
+        ], 
+        [
+          -0.515554, 
+          0.1, 
+          0.91973
+        ], 
+        [
+          -0.390042, 
+          0.1, 
+          0.427794
+        ], 
+        [
+          0.628212, 
+          0.1, 
+          0.245258
+        ], 
+        [
+          -0.584956, 
+          0.1, 
+          -0.031866
+        ], 
+        [
+          0.585868, 
+          0.1, 
+          0.0162
+        ], 
+        [
+          -0.6895, 
+          0.1, 
+          0.788071
+        ], 
+        [
+          0.295405, 
+          0.1, 
+          0.090149
+        ], 
+        [
+          0.700055, 
+          0.1, 
+          0.67225
+        ], 
+        [
+          -0.044488, 
+          0.1, 
+          -0.65464
+        ], 
+        [
+          -0.065071, 
+          0.1, 
+          0.699818
+        ], 
+        [
+          -0.058202, 
+          0.1, 
+          0.078393
+        ]
+      ]
+    ], 
+    "notes": [
+      {
+        "start": 0, 
+        "notes": [
+          "Put block 9 in the first open space above block 11\n", 
+          "9 the first open space 11\n", 
+          "Put block in the first space 11\n", 
+          "Put block 9 in the open space above block 11\n", 
+          "block in first open above block\n", 
+          "Put block in the first space block\n", 
+          "9 in the open above\n", 
+          "Put 9 in the first open space above block 11\n", 
+          "Put 9 the first space above block\n", 
+          "Put block 9 in the first space above block 11\n", 
+          "block 9 in the first open space block\n", 
+          "Put block 9 in open space above block 11\n", 
+          "Put 9 in the open space above block 11\n", 
+          "Put block the open above block\n", 
+          "Put block 9 in first open\n", 
+          "Put block 9 the first open space above block 11\n", 
+          "Put block 9 in the first open above block\n", 
+          "block the first space above block 11\n", 
+          "Put block 9 in the first open block\n", 
+          "block 9 in the first open space above block\n", 
+          "Put block 9 in the first space above block 11\n", 
+          "block in open space block 11\n", 
+          "Put block 9 in the first space above block 11\n", 
+          "Put block 9 in first block 11\n", 
+          "Put block in open above block\n", 
+          "Put 9 in the first open\n", 
+          "Put block 9 in space above block 11\n", 
+          "Put block 9 in the open space above block 11\n", 
+          "Put 9 in first space above block 11\n", 
+          "9 in first above 11\n", 
+          "Put block 9 the first space above block 11\n", 
+          "Put block the first space block\n", 
+          "in space above block 11\n", 
+          "Put 9 first open above block 11\n", 
+          "Put block 9 in first open space above block 11\n", 
+          "Put block 9 first open space above block 11\n", 
+          "Put block 9 the first open space above block 11\n", 
+          "Put block 9 in first open space above block 11\n", 
+          "block 9 in the first open space above block 11\n", 
+          "Put block 9 in the first open space above 11\n", 
+          "Put block 9 open space above block\n", 
+          "Put 9 the first space 11\n", 
+          "Put block 9 in the first open space 11\n", 
+          "Put block 9 the open space above block\n", 
+          "Put 9 in the open space block 11\n", 
+          "9 in first open space above block 11\n", 
+          "Put block 9 in the space block 11\n", 
+          "block 9 in the first above\n", 
+          "Put block 9 in the open block 11\n", 
+          "Put block the first open space above\n"
+        ], 
+        "finish": 1, 
+        "type": "A0", 
+        "users": [
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy", 
+          "dummy"
+        ]
+      }
+    ], 
+    "filename": "7_num0", 
+    "decoration": "digit", 
+    "images": [
+      "7_num0_00.png", 
+      "7_num0_01.png", 
+      "7_num0_02.png", 
+      "7_num0_03.png", 
+      "7_num0_04.png", 
+      "7_num0_05.png", 
+      "7_num0_06.png", 
+      "7_num0_07.png", 
+      "7_num0_08.png", 
+      "7_num0_09.png", 
+      "7_num0_10.png", 
+      "7_num0_11.png", 
+      "7_num0_12.png", 
+      "7_num0_13.png", 
+      "7_num0_14.png", 
+      "7_num0_15.png", 
+      "7_num0_16.png", 
+      "7_num0_17.png", 
+      "7_num0_18.png", 
+      "7_num0_19.png", 
+      "7_num0_20.png"
+    ], 
+    "side_length": 0.1524
+  }
+]

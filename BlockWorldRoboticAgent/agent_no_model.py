@@ -4,6 +4,7 @@ import message_protocol_util as mpu
 import reliable_connect as rc
 import generic_policy as gp
 import random
+import json
 
 ORACLE, RANDOM_WALK, STOP = range(3)
 
@@ -84,15 +85,24 @@ class AgentModelLess:
 
         sum_bisk_metric = 0
 
+        instruction_to_actions = {}
+        actions_json = {}
+
         for i in range(0, dataset_size):
             (_, bisk_metric, current_env, instruction, trajectory) = self.receive_instruction_and_image()
             sum_bisk_metric = sum_bisk_metric + bisk_metric
             logger.Log.info("Bisk Metric " + str(bisk_metric))
             logger.Log.info("Instruction: " + str(instruction))
 
+            # assuming original is first one without purturbations
+            if i == 0:
+                actions_json["original"] = str(instruction.strip())
+
             steps = 0
             sample_expected_reward = 0
             running_gamma = 1.0
+
+            currentActions = []
 
             while True:
                 # sample action from the likelihood distribution
@@ -107,7 +117,8 @@ class AgentModelLess:
 
                 action_str = self.message_protocol_kit.encode_action(action_id)
                 print "Sending Message: " + action_str
-                logger.Log.info(action_str + "\n")
+                logger.Log.info("ACTION: " + action_str)
+                currentActions.append(action_str)
                 self.connection.send_message(action_str)
 
                 # receive confirmation on the completion of action
@@ -123,7 +134,8 @@ class AgentModelLess:
                 if self.message_protocol_kit.is_reset_message(is_reset):
                     print "Resetting the episode"
                     self.connection.send_message("Ok-Reset")
-
+                    instruction_to_actions[instruction.strip()] = {}
+                    instruction_to_actions[instruction.strip()]["actions"] = currentActions
                     logger.Log.info("Example: " + str(i) + " Instruction: " + instruction + " Steps: " + str(steps))
                     logger.Log.info("\t Total expected reward: " + str(sample_expected_reward))
                     logger.Log.info("\t Avg. expected reward: " + str(sample_expected_reward/float(steps)))
@@ -135,5 +147,11 @@ class AgentModelLess:
         logger.Log.info("Avg. Bisk Metric " + str(avg_bisk_metric))
         logger.Log.info("Testing finished.")
         logger.Log.flush()
+
+
+
+        actions_json["perturbs"] = instruction_to_actions
+        with open('instruction_to_actions.json', 'w') as outfile:
+            json.dump(actions_json, outfile, indent=2)
 
         return avg_bisk_metric

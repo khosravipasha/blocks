@@ -192,6 +192,9 @@ class Agent:
                 # Find probability of this action
                 logger.Log.debug(action_values)
                 prob_action = action_values[inferred_action]
+
+                print "Inferred Action " + inferred_action
+
                 logger.Log.info("Action probability " + str(prob_action))
                 print "Action probability " + str(prob_action)
 
