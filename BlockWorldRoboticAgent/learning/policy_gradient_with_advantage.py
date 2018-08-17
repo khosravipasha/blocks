@@ -40,11 +40,11 @@ class PolicyGradientWithAdvantage(AbstractLearning):
             train_step = optimizer.apply_gradients(capped_gvs)
 
         # Create summaries for training
-        summary_loss = tf.scalar_summary("Loss", loss_reinforce)
-        summary_target_min = tf.scalar_summary("Target Min", tf.reduce_min(self.policy_model.target))
-        summary_target_max = tf.scalar_summary("Target Max", tf.reduce_max(self.policy_model.target))
-        summary_target_mean = tf.scalar_summary("Target Mean", tf.reduce_mean(self.policy_model.target))
-        summary_entropy_penalty = tf.scalar_summary("Entropy Penalty", entropy_penalty)
+        summary_loss = tf.summary.scalar("Loss", loss_reinforce)
+        summary_target_min = tf.summary.scalar("Target Min", tf.reduce_min(self.policy_model.target))
+        summary_target_max = tf.summary.scalar("Target Max", tf.reduce_max(self.policy_model.target))
+        summary_target_mean = tf.summary.scalar("Target Mean", tf.reduce_mean(self.policy_model.target))
+        summary_entropy_penalty = tf.summary.scalar("Entropy Penalty", entropy_penalty)
         update_summaries = [summary_loss, summary_target_min,
                             summary_target_max, summary_target_mean, summary_entropy_penalty]
 
@@ -70,12 +70,12 @@ class PolicyGradientWithAdvantage(AbstractLearning):
 
         # Create Reinforce loss and train step
         # multiply by the weights
-        wt_neg_log_prob = tf.mul(neg_log_prob, target)
+        wt_neg_log_prob = tf.multiply(neg_log_prob, target)
         loss_reinforce = tf.reduce_mean(wt_neg_log_prob)
         # Add entropy regularization
         lentropy = 0.1
-        block_entropy = -tf.reduce_sum(tf.mul(block_prob, tf.log(block_prob + 0.000001)), 1)
-        direction_entropy = -tf.reduce_sum(tf.mul(direction_prob, tf.log(direction_prob + 0.000001)), 1)
+        block_entropy = -tf.reduce_sum(tf.multiply(block_prob, tf.log(block_prob + 0.000001)), 1)
+        direction_entropy = -tf.reduce_sum(tf.multiply(direction_prob, tf.log(direction_prob + 0.000001)), 1)
         entropy = tf.add(block_entropy, direction_entropy)
         entropy_penalty = tf.reduce_mean(entropy, 0)
         loss_reinforce -= lentropy * entropy_penalty

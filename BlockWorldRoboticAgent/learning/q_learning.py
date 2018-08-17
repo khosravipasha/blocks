@@ -50,7 +50,7 @@ class QLearning(AbstractLearning):
             train_step = optimizer.apply_gradients(capped_gvs)
 
         # Create summaries for training
-        summary_loss = tf.scalar_summary("Loss", loss)
+        summary_loss = tf.summary.scalar("Loss", loss)
         update_summaries = [summary_loss]
 
         AbstractLearning.__init__(self, q_network, loss, train_step, update_summaries)
@@ -61,7 +61,7 @@ class QLearning(AbstractLearning):
         # Loss is mean squared error.
         indices_flattened = tf.range(0, tf.shape(q_value)[0]) * tf.shape(q_value)[1] + action_indices
         q_val_action = tf.gather(tf.reshape(q_value, [-1]), indices_flattened)
-        loss = tf.reduce_mean(tf.square(tf.sub(q_val_action, target)))
+        loss = tf.reduce_mean(tf.square(tf.subtract(q_val_action, target)))
         return loss
 
     def copy_variables_to_target_network(self, sess):

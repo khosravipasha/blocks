@@ -38,7 +38,7 @@ class MaximumLikelihoodEstimation(AbstractLearning):
             train_step = optimizer.apply_gradients(capped_gvs)
 
         # Create summaries for training
-        summary_loss = tf.scalar_summary("Loss", loss)
+        summary_loss = tf.summary.scalar("Loss", loss)
         update_summaries = [summary_loss]
 
         AbstractLearning.__init__(self, policy_model, loss, train_step, update_summaries)
@@ -104,7 +104,7 @@ class MaximumLikelihoodEstimation(AbstractLearning):
                 state.append(current_env)
                 (text_input_word_indices, text_mask) = \
                     self.policy_model.text_embedder.get_word_indices_and_mask(instruction)
-                logger.Log.info("=================\n " + str(data_point) + ": Instruction: "
+                logger.Log.info("=================\n " + str(data_point) + "/" + str(train_size) +  ": Instruction: "
                                 + str(instruction) + "\n=================")
 
                 traj_ix = 0

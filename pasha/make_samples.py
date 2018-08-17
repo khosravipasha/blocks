@@ -1,6 +1,7 @@
 '''
 
 This is for generating purturbation of text using LIME's funciton
+writes files to ./out/ folder and reads from ./in/
 
 '''
 from __future__ import unicode_literals
@@ -22,39 +23,7 @@ import sys
 sys.path.insert(0, '/home/pasha/ML/lime/lime')
 from lime_text import IndexedString
 
-def get_pertubations(indexed_string,
-                                num_samples,
-                                distance_metric = 'cosine'):
-        """
-        Generates neighborhood data by randomly removing words from
-        the instance. At most removes 2/3 of the text.
-
-        Args:
-            indexed_string: document (IndexedString) to be explained,
-            num_samples: size of the neighborhood to learn the linear model
-            distance_metric: the distance metric to use for sample weighting,
-                defaults to cosine similarity
-        Returns:
-                data: dense num_samples * K binary matrix, where K is the
-                    number of tokens in indexed_string. The first row is the
-                    original instance, and thus a row of ones.
-
-        """
-        doc_size = indexed_string.num_words()
-        sample = np.random.randint(1, 2 * doc_size / 3, num_samples - 1)
-        data = np.ones((num_samples, doc_size))
-        data[0] = np.ones(doc_size)
-        features_range = range(doc_size)
-        inverse_data = [indexed_string.raw_string()]
-        for i, size in enumerate(sample, start=1):
-            inactive = np.random.choice(features_range, size, replace=False)
-            data[i, inactive] = 0
-            inverse_data.append(indexed_string.inverse_removing(inactive))
-
-        return data
-
-#########################################################
-##
+from src import lime_purturbation as purt
 
 
 parser = argparse.ArgumentParser()
@@ -76,12 +45,10 @@ instructions_path = "out/sample_purt.txt"
 pert_matrix_path = "out/pert_matrix.p"
 env_json_path = "out/env.json"
 
-# TODO
-# 1. Save pickle options
 
 if __name__ == "__main__":
     indexed_string = IndexedString(instruction, bow=False)
-    result = get_pertubations(indexed_string, n)
+    result = purt.get_pertubations(indexed_string, n)
 
     # making instruction pertubations
     instructions = []

@@ -1,0 +1,251 @@
+
+<div id="original" class="container"></div>
+
+
+<div id="stat_min" class="container"></div>
+<div id="stat_max" class="container"></div>
+
+<div id="canvases" class="container">
+    <canvas id="canvas_start" width="300" height="300" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+    <canvas id="canvas_end" width="300" height="300" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+    
+</div>
+
+<div id="filters" class="container">
+
+</div>
+
+
+<div id="cur" class="container">
+
+
+
+</div>
+
+<div id="stats" class="container">
+
+
+
+</div>
+
+<div id="results" class="container">
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+
+<script>
+
+    json = REPLACE_FOR_JSON;
+    env = REPLACE_FOR_ENV;
+
+
+    side_length = env[0]["side_length"] * 100
+    start = env[0]["states"][0];
+    end = env[0]["states"][1];
+
+    // Start State
+    var c = document.getElementById("canvas_start");
+    var ctx = c.getContext("2d");
+    ctx.fillStyle = "gray";
+    ctx.fillRect(0, 0, c.width, c.height);
+    for(i=0;i<start.length;i++){
+        x = 100+start[i][0]*100;
+        y = 150-start[i][2]*100
+
+        ctx.fillStyle = "black";
+        ctx.fillRect(x,y, side_length, side_length);
+        ctx.fillStyle = "white";
+        if(start[i][0] != end[i][0] || start[i][2] != end[i][2])
+            ctx.fillStyle = "red";
+        ctx.fillText(i, x+5,y+10)
+    }
+
+    // End State
+    var c = document.getElementById("canvas_end");
+    var ctx = c.getContext("2d");
+    ctx.fillStyle = "gray";
+    ctx.fillRect(0, 0, c.width, c.height);
+    for(i=0;i<end.length;i++){
+        x = 100+end[i][0]*100;
+        y = 150-end[i][2]*100;
+
+        ctx.fillStyle = "black";
+        ctx.fillRect(x,y, side_length, side_length);
+        ctx.fillStyle = "white";
+        if(start[i][0] != end[i][0] || start[i][2] != end[i][2])
+            ctx.fillStyle = "red";
+        ctx.fillText(i, x+5,y+10)
+    }
+
+
+    $("#instruction").append(json["original"])
+    original  = json["original"].split(" ")
+    var filterDiv = document.getElementById("filters")
+
+    
+    // 1. Find lowest number of purturbations that change phi to 1
+    // 2. Find max number of purturbations that does not change phi (0)
+    var min_change = -1;
+    var max_change = -1;
+    for( var insturction in json["perturbs"]) {
+        cur_perturbations = original.length - insturction.split(" ").length;
+        cur_phi = json["perturbs"][insturction].phi[0];
+        // > 0.5 to deal with none discrete phis, 0.5 is arbitary
+        if(cur_phi > 0.5){    
+            if(min_change == -1 || cur_perturbations < min_change)
+                min_change = cur_perturbations;
+        }
+
+        if(cur_phi < 0.5){
+            if(max_change == -1 || max_change < cur_perturbations)
+                max_change = cur_perturbations;
+
+                console.log(cur_perturbations);
+        }
+
+    }
+    $("#stat_min").append("Min purturbations when (phi > 0.5): " + min_change);
+    $("#stat_max").append("Max purturbations when (phi < 0.5): " + max_change);
+
+    var checkArr = Array(original.length).fill().map((e,i)=>1);
+
+    // for(i=0; i < original.length ;i++){ 
+    //     $("#filters").append("<input type='checkbox' " + "id='check" + i + "'" + " onchange='updateTable();'"  +  "/>");
+    //     $("#check" + i)[0].checked = checkArr[i];
+    // }
+
+    function button_click(id){
+        numID = id.split("_")[1];
+        checkArr[numID] = !checkArr[numID];
+        updateTable();
+    }
+
+    function populateOriginal(){
+        origString = json["original"];
+        origString += "<br>";
+        origString += json["originalActions"].join(", ");
+
+        // $("#instruction").append(json["original"])
+        // $("#originalActions").append(json["originalActions"].join(", "))
+        $("#original").append(origString)
+    }
+
+    function updateTable(){
+        // current instruction
+        cur = ""
+        cur_html = ""
+        for(i = 0; i < original.length; i++){
+            //if($("#check" + i)[0].checked){
+            if(checkArr[i]){    
+                cur += original[i] + " ";
+                cur_html += '<button type="button" onclick="button_click(this.id);" class="btn btn-primary" id="button_' + i + '">'+ original[i] + '</button>&nbsp;'
+            }
+            else{
+                cur_html += '<button type="button" onclick="button_click(this.id);" class="btn btn-outline-primary" id="button_' + i + '">'+ original[i] + '</button>&nbsp;'
+            }
+        }
+        cur = cur.trim();
+        cc = cur.split(" ")
+
+        // update it
+        $("#cur").html(cur_html)
+
+        // update table
+        $("#results").html('')
+        count = 0;
+        sum_phi = 0
+        mapped = $.map(json.perturbs, function(value,index) { 
+            //console.log(value + " " + index); 
+            indList = index.split(" ");
+            
+            ok = true
+            j = 0
+            i = 0
+            while(i < indList.length){
+                if(j >= cc.length){
+                    ok = false
+                    break;
+                }
+                if(indList[i] == cc[j]){
+                    j++;
+                    i++;
+                }
+                else{
+                    j++;
+                }
+            }
+
+            if(ok){
+                count++;
+                // console.log(index);
+                sum_phi += value["phi"][0]
+                return {value: value, "instruction":index};
+            }
+            else
+                return undefined
+
+        });
+
+        average_phi = sum_phi / count;
+
+        console.log(count)
+        console.log(mapped)
+        console.log(mapped.length)
+        console.log(average_phi);
+        // if(json.perturbs[cur]){
+        makeTableHTML(mapped);    
+        // }
+        
+        stat_html = "";
+        stat_html += "<b>Average Phi: </b> " + average_phi + "<br/>";
+        stat_html += "<b>Count: </b> " + count + "<br/>";
+        $("#stats").html(stat_html)
+    }
+
+
+    function makeTableHTML(mapped){
+
+        var tableString = "<table class='table'><thead><tr><th>Instruction</th><th>Phi</th><th>Actions</th></thead></tr>";
+
+        for (i = 0; i < mapped.length; i++){
+            tableString += "<tr>";
+
+            tableString += "<td class='col-lg-5'>";
+            tableString += mapped[i]["instruction"];
+            tableString += "</td>";
+
+            tableString += "<td class='col-lg-1'>";
+            tableString += mapped[i]["value"]["phi"];
+            tableString += "</td>";
+
+            tableString += "<td class='col-lg-6'>";
+            tableString += mapped[i]["value"]["actions"];
+            tableString += "</td>";
+
+
+            tableString += "</tr>";
+        }
+    
+        tableString += "</table>";
+        $("#results").html( tableString )
+        // $("#results").html( JSON.stringify(mapped) )
+    }
+
+    populateOriginal();
+    updateTable();
+
+</script>
+
+

@@ -13,7 +13,8 @@ class EmbedTokenSeq:
     unk = "$UNK$"
 
     def __init__(self, output_size, ignore_case=True, num_steps=83, create_copy=None, scope_name="RNN"):
-        self.batch_size = tf.placeholder(dtype=tf.int32)
+        #self.batch_size = tf.placeholder(dtype=tf.int32)
+        self.batch_size = tf.placeholder(tf.int32, [], name='batch_size')
         self.num_steps = num_steps
         self.lstm_size = 200
         self.output_size = output_size
@@ -66,7 +67,7 @@ class EmbedTokenSeq:
                 (cell_output, state) = cell(inputs[:, time_step, :], state)
                 zero_mask = self.mask[:, time_step]
                 zero_mask = tf.reshape(zero_mask, [self.batch_size, 1])
-                masked_output = tf.mul(cell_output, zero_mask)
+                masked_output = tf.multiply(cell_output, zero_mask)
                 outputs.append(masked_output)
 
         # need to think of some other way here since longer sentences get more contribution.

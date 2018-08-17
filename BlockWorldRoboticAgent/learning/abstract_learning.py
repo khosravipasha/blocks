@@ -21,7 +21,7 @@ class AbstractLearning:
         self.model = model
         self.loss = loss
         self.train_step = train_step
-        self.update_summary = tf.merge_summary(update_summaries)
+        self.update_summary = tf.summary.merge(update_summaries)
         self.update_iter = 0
 
     def min_loss(self, sample, sess, train_writer, factorized_actions=True):

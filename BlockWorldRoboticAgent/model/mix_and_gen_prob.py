@@ -13,7 +13,7 @@ class MixAndGenerateProbabilities:
     def __init__(self, n_text, n_image, n_previous_action, text_embed, image_embed, previous_action_embed,
                  num_actions, use_softmax=True, scope_name="mix", create_copy=None):
 
-        observed_state = tf.concat(1, [image_embed, text_embed, previous_action_embed])
+        observed_state = tf.concat(1, [image_embed, text_embed, previous_action_embed]) #, 1)
         n_input = n_image + n_text + n_previous_action
         self.n_actions = num_actions
         dim = 120
@@ -39,12 +39,12 @@ class MixAndGenerateProbabilities:
         # Compute a common representation
         layer = tf.nn.relu(tf.add(tf.matmul(observed_state, self.weights["w_1"]), self.biases["b_1"]))
 
-        # Direction logits 
+        # Direction logits
         direction_logits = tf.add(tf.matmul(layer, self.weights["w_dir"]), self.biases["b_dir"])
-        
+
         # Block logits
         block_logits = tf.add(tf.matmul(layer, self.weights["w_block"]), self.biases["b_block"])
-        
+
         if use_softmax:
             self.direction_prob = tf.nn.softmax(direction_logits)
             self.block_prob = tf.nn.softmax(block_logits)

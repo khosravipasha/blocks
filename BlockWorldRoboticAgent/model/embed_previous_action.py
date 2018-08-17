@@ -23,7 +23,7 @@ class EmbedPreviousAction:
 
         direction_output = tf.nn.embedding_lookup(self.direction_embedding_matrix, self.last_direction_id)
         block_output = tf.nn.embedding_lookup(self.block_embedding_matrix, self.last_block_id)
-        self.output = tf.concat(1, [direction_output, block_output])
+        self.output = tf.concat(1, [direction_output, block_output]) #, 1) #tensflow backward incompatible
 
     def get_input(self):
         return self.last_direction_id, self.last_block_id

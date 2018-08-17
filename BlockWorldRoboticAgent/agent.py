@@ -12,6 +12,7 @@ from model.policy_network import PolicyNetwork
 from model.q_network import ActionValueFunctionNetwork
 from model.v_network import StateValueFunctionModel
 import generic_policy as gp
+import json
 
 
 # The different kind of training algorithm that are used to train the agent.
@@ -104,7 +105,7 @@ class Agent:
         gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=gpu_memory_fraction)
         self.sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
         if model_file is None:
-            self.sess.run(tf.initialize_all_variables())
+            self.sess.run(tf.global_variables_initializer())
             logger.Log.info("Initialized all variables ")
             saver = tf.train.Saver()
             saver.save(self.sess, "./saved/init.ckpt")
@@ -113,7 +114,7 @@ class Agent:
             saver.restore(self.sess, model_file)
             logger.Log.info("Loaded model from the file " + str(model_file))
 
-        self.train_writer = tf.train.SummaryWriter('./train_summaries/', self.sess.graph)
+        self.train_writer = tf.summary.FileWriter('./train_summaries/', self.sess.graph)
 
     def receive_instruction_and_image(self):
         """ Receives image and then reset message. Returns decoded
@@ -138,6 +139,11 @@ class Agent:
         """ Performs testing on the Block World Task. The agent interacts with the simulator
          which will iterate over the entire dataset and perform roll-out using test policy. """
 
+        instruction_to_actions = {}
+        iterationIndex_to_actions = []
+        actions_json = {}
+
+
         dummy_images = self.model.image_embedder.get_padding_images()
         previous_state = collections.deque([], 5)
 
@@ -148,7 +154,12 @@ class Agent:
         first_right = 0
 
         for i in range(0, dataset_size):
+
             (status_code, bisk_metric, current_env, instruction, trajectory) = self.receive_instruction_and_image()
+            
+            print("At testcase {} out of {}".format(i, dataset_size))
+            print("\t" + instruction)
+            
             sum_bisk_metric = sum_bisk_metric + bisk_metric
             logger.Log.info("Bisk Metric " + str(bisk_metric))
             logger.Log.info("Instruction: " + str(instruction))
@@ -171,6 +182,11 @@ class Agent:
             first = True
             traj_ix = 0
 
+            currentActions = []
+            # assuming original is first one without purturbations
+            if i == 0:
+                actions_json["original"] = str(instruction.strip())
+
             while True:
                 # sample action from the likelihood distribution
                 action_values = self.model.get_action_values(previous_state, text_input_word_indices,
@@ -180,6 +196,9 @@ class Agent:
                     inferred_action = trajectory[traj_ix]
                     traj_ix += 1
                 action_str = self.message_protocol_kit.encode_action(inferred_action)
+
+                currentActions.append(action_str)
+
                 block_id = int(inferred_action/4.0)
                 direction_id = inferred_action % 4
                 if inferred_action != 80:
@@ -193,18 +212,18 @@ class Agent:
                 logger.Log.debug(action_values)
                 prob_action = action_values[inferred_action]
 
-                print "Inferred Action " + inferred_action
+                #print ( "Inferred Action {}".format( inferred_action ) )
 
                 logger.Log.info("Action probability " + str(prob_action))
-                print "Action probability " + str(prob_action)
+                #print "Action probability " + str(prob_action)
 
-                print "Sending Message: " + action_str
+                #print "Sending Message: " + action_str
                 logger.Log.info(action_str + "\n")
                 self.connection.send_message(action_str)
 
                 # receive confirmation on the completion of action
                 (status_code, reward, current_env, is_reset) = self.receive_response_and_image()
-                print "Received reward " + str(reward)
+                #print "Received reward " + str(reward)
                 previous_state.append(current_env)
 
                 # Update and print metric
@@ -216,7 +235,7 @@ class Agent:
 
                 # Reset to a new task
                 if self.message_protocol_kit.is_reset_message(is_reset):
-                    print "Resetting the episode"
+                    print ("Resetting the episode {}".format(i))
                     self.connection.send_message("Ok-Reset")
 
                     sum_reward += sample_expected_reward
@@ -226,6 +245,10 @@ class Agent:
                     if len(blocks_moved) == 1 and list(blocks_moved)[0] == gold_block_id:
                         right_block += 1
 
+
+                    instruction_to_actions[instruction.strip()] = {}
+                    instruction_to_actions[instruction.strip()]["actions"] = currentActions
+                    iterationIndex_to_actions.append(currentActions)
                     logger.Log.info("Example: " + str(i) + " Instruction: " + instruction + " Steps: " + str(steps))
                     logger.Log.info("\t Total expected reward: " + str(sample_expected_reward))
                     logger.Log.info("\t Avg. expected reward: " + str(sample_expected_reward/float(steps)))
@@ -246,6 +269,11 @@ class Agent:
         logger.Log.info("Avg. reward " + str(avg_reward) + " Steps " + str(avg_steps))
         logger.Log.info("Testing finished.")
         logger.Log.flush()
+
+        actions_json["perturbs"] = instruction_to_actions
+        actions_json["indexed"] = iterationIndex_to_actions
+        with open('instruction_to_actions.json', 'w') as outfile:
+            json.dump(actions_json, outfile, indent=2)
 
         return avg_bisk_metric
 

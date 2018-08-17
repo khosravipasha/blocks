@@ -73,11 +73,11 @@ class PolicyNetwork:
         self.model_output = block_prob, direction_prob
         self.model_output_indices = self.block_indices, self.direction_indices
 
-        summary_qval_min = tf.scalar_summary("Direction Prob Min", tf.reduce_min(direction_prob))
-        summary_qval_max = tf.scalar_summary("Direction Prob Max", tf.reduce_max(direction_prob))
-        summary_qval_mean = tf.scalar_summary("Direction Prob Mean", tf.reduce_mean(direction_prob))
+        summary_qval_min = tf.summary.scalar("Direction Prob Min", tf.reduce_min(direction_prob))
+        summary_qval_max = tf.summary.scalar("Direction Prob Max", tf.reduce_max(direction_prob))
+        summary_qval_mean = tf.summary.scalar("Direction Prob Mean", tf.reduce_mean(direction_prob))
 
-        self.feed_forward_summary = tf.merge_summary([summary_qval_min, summary_qval_max, summary_qval_mean])
+        self.feed_forward_summary = tf.summary.merge([summary_qval_min, summary_qval_max, summary_qval_mean])
         self.feed_iter = 0
 
     def get_bucket_network(self, num_tokens):

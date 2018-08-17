@@ -19,10 +19,10 @@ constants["batch_size"] = 32
 # should be synchronized with the simulator or the data. Changing them
 # may give undesired behaviour. Similarly if the dataset files are changed
 # then you may want to change the constants defined below.
-constants["train_size"] = 11871
-constants["validation_size"] = 675
-constants["dev_size"] = 1719
-constants["test_size"] = 3177
+constants["train_size"] =  1000 # 11871
+constants["validation_size"] =  67 # 675
+constants["dev_size"] = 500#160
+constants["test_size"] = 250 #3177
 
 constants["num_block"] = 20
 constants["num_direction"] = 4

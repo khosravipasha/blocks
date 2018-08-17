@@ -31,7 +31,7 @@ class StateValueFunctionModel:
         previous_action_embedding = self.previous_action_embedder.get_output()
 
         # Concatenate them and pass them through a layer to generate V(s)
-        observed_state = tf.concat(1, [image_embedding, text_embedding, previous_action_embedding])
+        observed_state = tf.concat([image_embedding, text_embedding, previous_action_embedding])#, 1)
         n_state_dim = n_text + n_image + n_previous_action_embedding
         dim = 120
         with tf.name_scope(scope_name):
@@ -50,7 +50,7 @@ class StateValueFunctionModel:
 
         # Placeholder for total reward
         self.total_exp_reward = tf.placeholder(dtype=tf.float32, shape=None, name=scope_name + "_total_exp_reward")
-        self.loss = tf.reduce_mean(tf.square(tf.sub(self.state_value, self.total_exp_reward)))
+        self.loss = tf.reduce_mean(tf.square(tf.subtract(self.state_value, self.total_exp_reward)))
 
         optimizer = tf.train.AdamOptimizer(0.001)
 

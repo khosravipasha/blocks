@@ -13,7 +13,7 @@ class MixAndGenerateQValues:
     def __init__(self, n_text, n_image, n_previous_action, text_embed, image_embed, previous_action_embed,
                  num_actions, scope_name="mix_gen_qvalue", create_copy=None):
 
-        observed_state = tf.concat(1, [image_embed, text_embed, previous_action_embed])
+        observed_state = tf.concat(1, [image_embed, text_embed, previous_action_embed]) #, 1)
         n_input = n_image + n_text + n_previous_action
         self.n_actions = num_actions
         dim = 120
@@ -36,7 +36,7 @@ class MixAndGenerateQValues:
         # Compute a common representation
         layer = tf.nn.relu(tf.add(tf.matmul(observed_state, self.weights["w_1"]), self.biases["b_1"]))
 
-        # Direction logits 
+        # Direction logits
         self.q_val = tf.add(tf.matmul(layer, self.weights["w_q"]), self.biases["b_q"])
 
     def get_q_val(self):

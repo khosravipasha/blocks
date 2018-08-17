@@ -1,0 +1,2859 @@
+[
+	{
+		"shape_params": [
+			"blue",
+			"green",
+			"cyan",
+			"magenta",
+			"yellow",
+			"red"
+		],
+		"decoration": "digit",
+		"notes": [
+			{
+				"start": 0,
+				"notes": [
+					"Put block 9 in the first open space above block 11",
+					"9 the first open space 11",
+					"move block 6 so that its bottom right corner is above block 20 and its top left corner is to the right of block 11",
+					"The 6 block moved to behind the 20 from behind the 17 block.",
+					"The 6th blocked was behind the 17 block, but moved next to the 11th block.",
+					"The 6th block was behind the 17th block, but was moved on top of the 20th block.",
+					"the number six cube should be taken from the upper right corner and placed between the 11 and 20 cubes.  The top of 6 should be level with the middle of the 11's right side, and level with the middle of the 20's top side.",
+					"the number six should be placed so that the top left corner is even with the middle of the 11, and the lower right corner is even with the middle of the 20",
+					"the 6 is placed to the right of the 11 and above the 20 so that it is right in the middle"
+				],
+				"finish": 1,
+				"type": "A0",
+				"users": [
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ"
+				]
+			},
+			{
+				"start": 1,
+				"notes": [
+					"Pick up block 8 and move it so that the bottom left corner of block 8 touches the top right corner of block 6.",
+					"slide block 8 around blocks 14 and 12 and then to the left until its bottom left corner touches block 6",
+					"lift up block 8 so that it goes over block 16 and then place it down below block 19 , where  the top left corner of block 8 meets the middle of the bottom of block 19",
+					"The 8 block moved from in front of the 14 to behind the 6 block.",
+					"The 8 block was under the 14 but moved under the 19th block.",
+					"the 8th block was under the 14th block, but  moved under the 19th block.",
+					"the 8 should be taken from the middle of the right hand side and placed beneath the 19, but above the 6.  The left side of the 8 should be even with the right side of the six.",
+					"the 8 should be placed so that it is between the 19 and the 6.  The 8 should be next to the 6, but not over it.",
+					"the 8 is placed beneath the 19 but above the 6.  8 should be halfway under the 19 without touching the 6"
+				],
+				"finish": 2,
+				"type": "A0",
+				"users": [
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ"
+				]
+			},
+			{
+				"start": 2,
+				"notes": [
+					"Pick up block 10 and place it so it is directly to the right of block 8.",
+					"slide block 10 to the right and then down until it is directly on the right of block 8",
+					"lift up block 10 and place it so that the left side of block 10 is flush with the right side of block 8",
+					"The 10 block moved from behind the 15, next to the 8 block.",
+					"The 10th block was behind the 15th block but moved next to the 8th block.",
+					"The 10th block is on top of the 15th, but moved next to the 8th block.",
+					"the 10 should be taken from the upper left corner and placed directly next to the 8.  The 10 should be level on both the top and bottom sides with the 8, and there should be a tiny space between them.",
+					"the 10 is placed on the right side of the 8, with both the top and bottom level with the 8",
+					"the 10 is placed to the right of the 8 so that they line up"
+				],
+				"finish": 3,
+				"type": "A0",
+				"users": [
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ"
+				]
+			},
+			{
+				"start": 3,
+				"notes": [
+					"pick up block 12 and place it directly to the right of block 10",
+					"slide block 12 to the left and then up so that is is on the right of block 10",
+					"lift up block 12 and place it  so that the left side of block 12 is flush against the right side of block 10",
+					"The 12 block moved from behind the 14, next to the 10 block.",
+					"The 12th block was behind the 14, but moved next to the 10th block.",
+					"The 12th block was behind the 14th block, but moved over next to the 10th block.",
+					"The 12 should be taken from above the 14 and placed directly next to the 10.  Both the top and bottom sides of the 12 should be even with the 10, and there should only be a tiny space between them.",
+					"the 12 is placed to the right of the 10 so that they almost touch, level on both the top and bottom",
+					"the 12 is placed to the right of the 10 so that the 8, 10, and 12 line up"
+				],
+				"finish": 4,
+				"type": "A0",
+				"users": [
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ"
+				]
+			},
+			{
+				"start": 4,
+				"notes": [
+					"slide block 14 up so that it is directly to the right of block 12",
+					"slide block 14 up and to the left so that it is on the left of block 12",
+					"lift up block 14 and place it so that the left side of block 14 is flush with the right side of block 12",
+					"The 14 block moved next to the 12 block",
+					"The 14 block was next the 16th block, but moved next to the 12th block.",
+					"The 14th block was a few inches apart from the 16th block, but was moved up north towards the 12th block.",
+					"the 14 is moved from the middle right side to be placed next to the 12.  They should be even with very little space between them",
+					"the 14 is placed to the right of the 12 so that they are level on both the top and bottom",
+					"the 14 is placed so that it lines up with the 8, 10, and 12"
+				],
+				"finish": 5,
+				"type": "A0",
+				"users": [
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ"
+				]
+			},
+			{
+				"start": 5,
+				"notes": [
+					"move block 16 up and to the right so that the top left corner of block 16 touches the bottom right corner of block 14",
+					"slide block 16 to the right and up so  that its top left corner is touching block 14",
+					"find block 16 and move it below block 17 leaving one block's length between block 17 and block 16",
+					"the 16 block moved from in front of the 12 block to infront of the 17 block.",
+					"the 16th block was next to the 20th block and under the 12th but was moved next to the 14th, under the 17th block.",
+					"The 16th block is next to the 20th block but there is some distance between it, it also happens to be under the 12th block, but moved northeast towards the 17th block.",
+					"the 16 needs to slide to the right so that it is almost even with the 17, with just a little of the 16 sticking out to the left.  Then it needs to move up so that the top of the 16 is even with the bottom of the 14",
+					"the 16 is placed so that it's top left corner is almost touching the lower right corner of the 14",
+					"the 16 is placed kitty-corner of the 14 on the lower-right side"
+				],
+				"finish": 6,
+				"type": "A0",
+				"users": [
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ"
+				]
+			},
+			{
+				"start": 6,
+				"notes": [
+					"lift up block 17 over block 16 and place it so that it is directly below block 16",
+					"slide block 17 to the right, then down, and then left until it is under block 16",
+					"place block 17 so that the top of block 17 is flush with the bottom of block 16",
+					"The 16 and 17 block moved down a little but switched places.",
+					"The 16 was under the 17 but switched places and now they are ontop of eachother.",
+					"The 16th block is under the 17th block, but there is a gap in the distance that they share, but they are later mashed together but switch places.",
+					"the 17 gets moved to directly below the 16.  The should be even on the left and right sides with very little space between them",
+					"the 17 is placed beneath the 16 with both the left and right sides even",
+					"the 17 is lined up squarely beneath the 16"
+				],
+				"finish": 7,
+				"type": "A0",
+				"users": [
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ"
+				]
+			},
+			{
+				"start": 7,
+				"notes": [
+					"slide block 18 to the right and then up so that it is directly under block 17",
+					"pick up block 18 and put it beneath block 17",
+					"lift up block 18 and put it down so that the top of block 18 is touching the bottom of block 17",
+					"The 18 moved from in front of the 3 to in front of thr 17 block.",
+					"The 18th block was under the 3rd, but moved under the 17th block.",
+					"The 18th block is sitting under the 3rd block with a little distance between, but later moved northeast under the 17th block.",
+					"the 18 is taken from the lower middle and placed directly beneath the 17 so that both the left and right sides are even, with very little space between the two",
+					"the 18 is placed squarely below the 17 so that they form a line.",
+					"the 18 is lined up right under the 17"
+				],
+				"finish": 8,
+				"type": "A0",
+				"users": [
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ"
+				]
+			},
+			{
+				"start": 8,
+				"notes": [
+					"pick up block 20 and place it next to block 18 so that the top left corner of block 20 touches the bottom right corner of block 18",
+					"slide block 20 down and to the right until its top left corner is touching block 18",
+					"place block 20  to the right and below block 18 at a diagonal",
+					"The 20 block moved next to the 18 block from in front of the 6th block.",
+					"The 20th block was under the 6th block, but was moved under and next to the 18th block.",
+					"the 20th block is all alone but there is a 6th block that is northwest of it by a few cm, but it moves south east diagonally towards the 18th block.",
+					"the 20 is taken from the middle of the formation and placed next to the 18 so that the top of the 20 is level with the bottom of the 18 and the left of the 20 is level with the right of the 18",
+					"the 20 is placed so that its upper left corner is almost touching the lower right corner of the 18",
+					"the 20 is placed kitty-corner to the 18 on the lower-right side"
+				],
+				"finish": 9,
+				"type": "A0",
+				"users": [
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ"
+				]
+			},
+			{
+				"start": 9,
+				"notes": [
+					"move block 19 to below block 20 at a diagonal so that the top right corner of block 19 touches the bottom left corner of block 20",
+					"pick up block 19 and place it down so that it is below block 18, leaving a space of one block between block 18 and 19.",
+					"slide block 19 to the left past block 11 and then down to block 13, and then slide it to the right towards block 17, after that slide block 19 down below block 20 and to the right so that its top right corner touches block 20",
+					"19 moved from behind the 8 to under the 18th block.",
+					"The 19th block was on top of the 8th block, but moved under the 18th block.",
+					"The 19th block is about a few cm apart from an 8th block under it, but moved southeast connecting to the 20th block",
+					"the 19 is placed beneath the 18 so that the left and right sides are even.  The top of the 19 should be even with the bottom of the 20",
+					"the 19 is placed squarely beneath the 18, but placed so that the upper right corner of the 19 is almost touching the lower left corner of the 20",
+					"the 19 is placed kitty-corner to the 20 on the lower-left side so that it is under the 18"
+				],
+				"finish": 10,
+				"type": "A0",
+				"users": [
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A2OFN0A5CPLH57",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A1TNAK7Q0IH8VO",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ",
+					"A2X7NAOGQ1WEIJ"
+				]
+			},
+			{
+				"start": 10,
+				"notes": [
+					"Block 15 should be place with its top right corner touching block 19's bottom left corner",
+					"Block 15's top right corner should touch block 19's bottom left corner",
+					"Move block 15 by block 19 such that it continues the diagonal created between block 20 and 19",
+					"Continue the diagonal row of 20 and 19 downward with 15",
+					"Touch 15's upper right corner to 19's lower left.",
+					"Put 15 under 19 as far left as it can go while still touching 19.",
+					"Move block 15 one block down and to the left from block 19.",
+					"Take the 15 block and slide it below block 19. Then shift left 1 space.",
+					"Place block 15 next to block 19. Then shift down so the corner of block 15 is touching block 19."
+				],
+				"finish": 11,
+				"type": "A0",
+				"users": [
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV"
+				]
+			},
+			{
+				"start": 11,
+				"notes": [
+					"Take block 13 and move it so its top right corner touches the bottom left corner of block 15",
+					"block 13's top right corner should touch block 15's bottom left corner",
+					"move block 13 such that it continues the diagonal created by 20, 19, 15",
+					"Continue the diagonal row of 20, 19 and 15 downward with 13.",
+					"Touch 13's upper right corner to 15's lower left.",
+					"Put 13 under 15 as far left as it can go while still touching 15.",
+					"Move block 13 over by block 15 so that it is diagonal to block 15 with the corner touching.",
+					"Slide block 13  to sit directly under block 15. Move over one block space to the left.",
+					"Place block 13 to the left of the block 15. Then shift block 13 down so that it is touching corners with block 15."
+				],
+				"finish": 12,
+				"type": "A0",
+				"users": [
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV"
+				]
+			},
+			{
+				"start": 12,
+				"notes": [
+					"Move block 11 so that its right side is next to block 13's right side, they should almost be touching and the tops and bottoms should be flush",
+					"block 11's right side should touch block 13's left side",
+					"move block 11 next to block 13 such that their sides touch",
+					"Place 11 directly to 13's left.",
+					"Put 11 next to 13 so 13 is on the right.",
+					"Line 11 up with 13 horizontally but not under 15.",
+					"Move block 11 to the left of block 13.",
+					"Slide block 11 down to the right of block 9, then shift it right until it is next to block 13.",
+					"Place block 11 next to block 15. Slide block 11 to the left 1 block space, and then down 1 block space. It should be sitting next to block 13."
+				],
+				"finish": 13,
+				"type": "A0",
+				"users": [
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV"
+				]
+			},
+			{
+				"start": 13,
+				"notes": [
+					"move block 9 so that it is next to block 11, block 9's right side should be next to block 11's left side, their top and bottom should be flush",
+					"block 9's right side should touch block 11's left side",
+					"move block 9 by block 11 such that their sides touch",
+					"Place 9 directly to 11's left.",
+					"Put 9 next to 11 so 11 is on the right.",
+					"Line 9 up with 11 horizontally.",
+					"Shift block 9 to the right so that it is touching the left side of block 11.",
+					"Slide block 9 to sit under block 3. Keep moving to the right until it is touching the 11 block.",
+					"Place block 9 under block 11. Move block 9 one space to the left, and up one space."
+				],
+				"finish": 14,
+				"type": "A0",
+				"users": [
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV"
+				]
+			},
+			{
+				"start": 14,
+				"notes": [
+					"move block 7 so that its right side is touching block 11's left side, their top and bottom should be flush",
+					"block 7's right side should touch block 9's left side",
+					"move block 7 by block 9 such that their left and right sides touch respectively",
+					"Place 7 directly to 9's left.",
+					"Put 7 next to 9 so 9 is on the right.",
+					"Line 7 up with 9 horizontally.",
+					"Move block 7 so that it is touching the left side of block 9.",
+					"Shift block seven down until it is in line with block 13, then move it to the right.",
+					"Slide block 7 down until it is sitting on block 4. Then slide it to the right until it is sitting next to block 9."
+				],
+				"finish": 15,
+				"type": "A0",
+				"users": [
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV"
+				]
+			},
+			{
+				"start": 15,
+				"notes": [
+					"move block 5 so that its lower right hand corner touches the upper left hand corner of block 7",
+					"block 5's bottom right hand corner should touch block 7's top right hand corner",
+					"Move block 5 by block 7 such that block 5's bottom right corner touches block 7's upper left corner",
+					"Begin a diagonal climb upwards by placing 5 over 7.",
+					"Touch 5's lower right corner to 7's upper left.",
+					"Put 5 above 7 as far left as it can go while still touching 7.",
+					"Move block 5 down so that it is just one space above and to the left of block 7.",
+					"Place block 5 so that it is diagonal to block seven with the corners touching.",
+					"Place block  5 next to block 3. Slide it over to the left until it's right bottom corner is touching the upper left corner of the 7 block."
+				],
+				"finish": 16,
+				"type": "A0",
+				"users": [
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV"
+				]
+			},
+			{
+				"start": 16,
+				"notes": [
+					"move block 4 such that its bottom touches the top of block 5, such that their sides are flush",
+					"block 4's bottom side should touch block 5's top side",
+					"move block 4 such that its bottom side touches block 5's top side completely",
+					"Place 4 directly above 5.",
+					"Place 4 so that 5 is directly under it.",
+					"Line 4 up with 5 vertically but not next to 7.",
+					"Move block 4 above block 5.",
+					"Slide block 4 up and to the right so that it sits on block 5.",
+					"Push block 4 up 3 block spaces, then move it over 2 block spaces so that is is resting on block 5."
+				],
+				"finish": 17,
+				"type": "A0",
+				"users": [
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV"
+				]
+			},
+			{
+				"start": 17,
+				"notes": [
+					"take block 3 and place it by block 4 such that its bottom touches the top of block 4, such that the sides are flush",
+					"block 3's bottom side should touch block 4's top side completely",
+					"move block 3 such that its bottom side touches block 4's top side completely",
+					"Place 3 directly above 4.",
+					"Place 3 so that 4 is directly under it.",
+					"Line 3 up with 4 vertically.",
+					"Move block 3 directly above block 4.",
+					"Slide block 3 up and to the left until it sits on block 4.",
+					"Slide block 3 up 1.5 spaces, then to the left until it is resting on top of block 4."
+				],
+				"finish": 18,
+				"type": "A0",
+				"users": [
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV"
+				]
+			},
+			{
+				"start": 18,
+				"notes": [
+					"place block 2's bottom by block 3's top such that their sides are parallel.",
+					"block 2's bottom side should touch block 3's top side completely",
+					"move block 2 such that its bottom side touches block 3's top side completely",
+					"Place 2 directly above 3.",
+					"Place 2 so that 3 is directly under it.",
+					"Line 2 up with 3 vertically.",
+					"Move block 2 directly above block 3.",
+					"slide block 2 to the left, then slide up to sit on block 3.",
+					"Slide block 2 over to the left until it clears all of the blocks above it. Slide it up to rest directly above block 3."
+				],
+				"finish": 19,
+				"type": "A0",
+				"users": [
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV"
+				]
+			},
+			{
+				"start": 19,
+				"notes": [
+					"place block 1 by block 2 such that block 2's top is touching the bottom of block 1, their sides should be flush",
+					"block 1's bottom side should touch block 2's top side completely",
+					"move block 1 by block 2 creating a line that goes 1, 2, 3, 4, 5",
+					"Place 1 directly above 2.",
+					"Place 1 so that 2 is directly under it.",
+					"Line 1 up with 2 vertically.",
+					"Slide block 1 to sit on top of block 2.",
+					"Place block 1 diagonal to block 6, so it is touching corners with block 6 and sitting on top of block 2.",
+					"Move block 1 up to site next to block six. Then move it down until it is sitting on block 2."
+				],
+				"finish": 20,
+				"type": "A0",
+				"users": [
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A3TPSZDIBLHO6",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"A2PE32I58ANCDD",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV",
+					"AYUREWGFQG5JV"
+				]
+			},
+			{
+				"start": 0,
+				"notes": [
+					"Starting half a column left of block 20 and half a row below block 11, move and place in order: block 6 with no movement, above and right block 8, right block 10, right block 12, right block 14, down and right block 16.",
+					"Starting half a column left of block 20 and half a row below block 11, move and place in order: block 6  in place, northeast block 8, east block 10, east block 12, east block 14, southeast block 16.",
+					"Starting four and a half columns right of block 20 and half a row below block 11, move and place in order: block 16 in place, northwest block 14, west block 12, west block 10, west block 8, southwest block 6.",
+					"Place block 8 below block 19. Slide it slightly to the right. Then form a horizontal line to the right of block 8 with blocks 10, 12 and 14. Then place block 6 to the left and below block 8 and place block 16 below and to the right of block 14.",
+					"Place a horizontal line of blocks, specifically blocks 8, 10, 12 and 14, below block 19. Then place block 6 below and to the left of block 8, and block 16 to the right and below block 14.",
+					"Place block 6 to the right of block 11, then slide it down slightly. Above and to the right of block 6, place block 8. Form a horizontal line to the right of block 8 using blocks 10, 12 and 14. Below and to the right of block 14, place block 16.",
+					"Create a horizontal segment (left to right) of 8-10-12-14. Place 16 one space southeast of 14, and 6 is one space southwest of 8. This (sorry) phallic symbol should be in the upper right corner.",
+					"Place 8 one half space down and right of 19. Create a horizontal line going right with 10, 12, and 14, all touching. 14 shares its upper and lower right corners with 17 and 16, respectively.  6 shares its upper right corner with 8.",
+					"Combine an even-numbered horizontal row with 8, 10, 12, and 14. Place 14 so it is sharing its upper right corner with 17's lower left. Next, place 16 two spaces below 17 and 6 southwest of 8."
+				],
+				"finish": 6,
+				"type": "A1",
+				"users": [
+					"A2E3TO92MCQ9XU",
+					"A2E3TO92MCQ9XU",
+					"A2E3TO92MCQ9XU",
+					"AR22D9E55HQBF",
+					"AR22D9E55HQBF",
+					"AR22D9E55HQBF",
+					"A11QDNT3W7DT7K",
+					"A11QDNT3W7DT7K",
+					"A11QDNT3W7DT7K"
+				]
+			},
+			{
+				"start": 6,
+				"notes": [
+					"Starting from block 16, move and place in order: down block 17, down block 18, down and right block 20, down and left block 19.",
+					"Starting from block 16, move and place in order: south block 17, south block 18, southeast block 20, southwest block 19.",
+					"Starting from four rows below block 16, move and place in order: block 19, northeast block 20, northwest block 18, north block 17.",
+					"Place block 17 under block 16. Then place block 18 below block 17. Then place block 20 below and to the right of block 18. Then place block 19 below and to the left of block 20.",
+					"Below block 16, form a vertical line using blocks 17 and 18. To the right and below that line, place block 20. To the left and below block 20, place block 19.",
+					"Forming a vertical line, place blocks 17 and 18 below block 16. Place block 20 below and to the right of block 18. Then place block 19 below block 20, then slide it to the left so it is in line with the vertical line formed by blocks 16, 17 and 18.",
+					"Below 16, create a vertical segment using 17, 18, and 19, but place 19 two spaces below 18. Move 20 to one space northeast of 19.",
+					"Move 17 down three spaces and slightly left so it is directly below and touching 16; add 18 below it as well. Next, place 20 one space southeast of 18, and 19 one space southwest of 20.",
+					"Create a five-box vertical line using 16, 17, 18, 20, and 19 (in that order) starting with 16 and working your way down. Move 20 one space right."
+				],
+				"finish": 10,
+				"type": "A1",
+				"users": [
+					"A2E3TO92MCQ9XU",
+					"A2E3TO92MCQ9XU",
+					"A2E3TO92MCQ9XU",
+					"AR22D9E55HQBF",
+					"AR22D9E55HQBF",
+					"AR22D9E55HQBF",
+					"A11QDNT3W7DT7K",
+					"A11QDNT3W7DT7K",
+					"A11QDNT3W7DT7K"
+				]
+			},
+			{
+				"start": 10,
+				"notes": [
+					"Starting from block 19, move and place in order: down and left block 15, down and left block 13, left block 11, left block 9, left block 7.",
+					"Starting from block 19, move and place in order: southwest block 15, southwest block 13, west block 13, west block 11, west block 9, west block 7.",
+					"Starting from six rows below block 6, move and place in order: block 7, east block 9, east block 11, east block 13, northeast block 15.",
+					"Place block 15 below and to the left of block 19. Then place block 13 below and to the left of block 15. To the left of block 13, form a horizontal line using blocks 7, 9 and 11. The blocks should be in order from lowest to highest reading left to right.",
+					"Below and to the left of block 3, place block 7. Form a horizontal line to the left of block 7 using blocks 9, 11 and 13. Place block 15 above and to the right of block 13, connecting block 13 to a diagonal line formed by blocks 19 and 20.",
+					"Continue the diagonal line formed by blocks 19 and 20 using blocks 13 and 15, 13 being at the bottom of the line. To the left of block 13, form a horizontal line using blocks 7, 9 and 11. Block 7 should be at the furthest left, and the other numbers should therefore be in order from lowest to highest reading from left to right.",
+					"From 19, create a southwest diagonal with 15 and 13. 13 then extends left with 11, 9, and 7 in a horizontal line.",
+					"Form a four-box diagonal chain starting with 20: 20-19-15-13. Then, link 7-9-11 (left to right) to 13, so 11 and 13 share a side.",
+					"Place 7-9-11-13 together in a horizontal line from left-to-right. Make sure the 9-11-13 segment is below the 8-10-12 segment far above it. 13 should link to 15 diagonally to the southwest which in turn links diagonally with 19."
+				],
+				"finish": 15,
+				"type": "A1",
+				"users": [
+					"A2E3TO92MCQ9XU",
+					"A2E3TO92MCQ9XU",
+					"A2E3TO92MCQ9XU",
+					"AR22D9E55HQBF",
+					"AR22D9E55HQBF",
+					"AR22D9E55HQBF",
+					"A11QDNT3W7DT7K",
+					"A11QDNT3W7DT7K",
+					"A11QDNT3W7DT7K"
+				]
+			},
+			{
+				"start": 15,
+				"notes": [
+					"Starting from above and to the left of block 7, create a rising vertical column with blocks 5, 4, 3, 2, and 1.",
+					"Starting from below and to the left of block 6, create a falling vertical column with blocks 1, 2, 3, 4, and 5.",
+					"Starting from northwest of block 7, move and place in order: block 5, north block 4, north block 3, north block 2, north block 1.",
+					"Above and to the left of block 7, place block 5. Then using blocks 1, 2, 3 and 4, form a vertical line. Block 1 should be at the top of the line, below and to the left of block 6, and the other numbers should be in order from lowest to highest reading top to bottom.",
+					"Below and to the left of block 6, place block 1. Form a vertical line below block 1 using blocks 2, 3, 4 and 5. Block 5 should be above and to the left of block 7, and the numbers should be in order from lowest to highest reading top to bottom.",
+					"Below and to the left of block 6, place block 1. Above and to the left of block 7, place block 5. Place block 2 below block 1. Place block 4 above block 5. Between blocks 2 and 4, place block 3.",
+					"Finally, place 1-2-3-4-5 (descending) in a vertical line between 6 and 7. Then, shift it over by one space to the left.",
+					"Place 5 one space northwest of 7, so they share an edge. Place 1 one space southeast of 6, so their edges touch. Now, fill the space between 1 and 5 with 2, 3, and 4, in numerical order.",
+					"Place box 1 six spaces left of 17; same with 2 with 18. From there, continue a vertical line down, creating 1-2-3-4-5. 5 should be one space northwest of 7."
+				],
+				"finish": 20,
+				"type": "A1",
+				"users": [
+					"A2E3TO92MCQ9XU",
+					"A2E3TO92MCQ9XU",
+					"A2E3TO92MCQ9XU",
+					"AR22D9E55HQBF",
+					"AR22D9E55HQBF",
+					"AR22D9E55HQBF",
+					"A11QDNT3W7DT7K",
+					"A11QDNT3W7DT7K",
+					"A11QDNT3W7DT7K"
+				]
+			},
+			{
+				"start": 0,
+				"notes": [
+					"Draw an O with the numbers in natural order.  Then move the number 20 one block to the right. After the first line of the O separate even (on top) and odd numbers (on bottom) and build from there.",
+					"Draw a big O. Starting from the left start a vertical line from 1 thru 5. Then proceed in two separate ways by placing even and odd numbers in separate rails of the O.  Even goes on top and odd on bottom.",
+					"Make a round circle with all the numbers. Then rotate it making sure the first 5 are aligned vertically on the left of your creation. Then separate even (top) and odd (bottom) numbers on the remaining rails of the o and place number 20 one block away from the pack.",
+					"Start up and right of block 8. Place blocks and move in this order: 20, up and left, 18, up, 17, up, 16, up and left, 14, left, 12, left, 10, left, 8, down and left, 6, down and left, 1, down, 2, down, 3, down, 4, down, 5, down and right, 7, right, 9, right, 11, right, 13, up and right, 15, up and right, 19.",
+					"Start northeast of block 8. Place blocks and move in this order: 20, northeast, 18, north, 17, north, 16, northwest, 14, west, 12, west, 10, west, 8, southwest, 6, southwest, 1, south, 2, south, 3, south, 4, south, 5, southeast, 7, east, 9, east, 11, east, 13, northeast, 15, northeast, 19.",
+					"Start up and right of block 8. Place blocks and move in this order: 20, down and left, 19, down and left, 15, down and left, 13, left, 11, left, 9, left, 7, up and left, 5, up, 4, up, 3, up, 2, up, 1, up and right, 6, up and right, 8, right, 10, right, 10, right, 12, right, 14, down and right, 16, down, 17, down, 18.",
+					"We'll create a weird-looking zero on the screen. Create a horizontal line with 8-10-12-14, from left to right. * should be two spaces below the top of the grid and the 8/10 is on the Y axis.Create a southwest diagonal from 8 using 6 and 1; head south from 1 with 2, 3, 4, and 5. Create a horizontal left-right lien of 7-8-11-13, starting one space down and right of 5. From 13, head in a northeast diagonal with 15, 19, and 20. One space northwest of 20 is 18; head north with 17 and 16.",
+					"Create a horizontal line, left-right, with 7-9-11-13. It should be three spaces above the bottom of the grid and start five spaces from the left. From 7, place 5 one space northwest, head north from there 5-4-3-2-1. 1 is now the bottom of a northeast 1-6-8 diagonal. From 8, head east 8-10-12-14. From 14, one space southwest of 16; head down 16-17-18-20-19, but move 20 one space right.Between 13 and 19 is 15.",
+					"Place 20 on the X-axis, all the way on the right. To its northwest and southwest are 18 and 19, respectively. Continue southwest with 15 and 13; move up from 18 with 17 and 16. From 13, head left, 11-9-7. From 16, place 14 one space northwest, and head left 12-10-8. Place 6 one space southwest of 8, and 1 the same from 6. Head south from 1 with 2-3-4-5."
+				],
+				"finish": 20,
+				"type": "A2",
+				"users": [
+					"A1TGEFPTH2DXAN",
+					"A1TGEFPTH2DXAN",
+					"A1TGEFPTH2DXAN",
+					"A2E3TO92MCQ9XU",
+					"A2E3TO92MCQ9XU",
+					"A2E3TO92MCQ9XU",
+					"A11QDNT3W7DT7K",
+					"A11QDNT3W7DT7K",
+					"A11QDNT3W7DT7K"
+				]
+			}
+		],
+		"filename": "7_num0",
+		"states": [
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					0.79096,
+					0.1,
+					0.911159
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0.635309,
+					0.1,
+					-0.274163
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					-0.515554,
+					0.1,
+					0.91973
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.628212,
+					0.1,
+					0.245258
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.585868,
+					0.1,
+					0.0162
+				],
+				[
+					-0.6895,
+					0.1,
+					0.788071
+				],
+				[
+					0.295405,
+					0.1,
+					0.090149
+				],
+				[
+					0.700055,
+					0.1,
+					0.67225
+				],
+				[
+					-0.044488,
+					0.1,
+					-0.65464
+				],
+				[
+					-0.065071,
+					0.1,
+					0.699818
+				],
+				[
+					-0.058202,
+					0.1,
+					0.078393
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0.635309,
+					0.1,
+					-0.274163
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					-0.515554,
+					0.1,
+					0.91973
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.628212,
+					0.1,
+					0.245258
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.585868,
+					0.1,
+					0.0162
+				],
+				[
+					-0.6895,
+					0.1,
+					0.788071
+				],
+				[
+					0.295405,
+					0.1,
+					0.090149
+				],
+				[
+					0.700055,
+					0.1,
+					0.67225
+				],
+				[
+					-0.044488,
+					0.1,
+					-0.65464
+				],
+				[
+					-0.065071,
+					0.1,
+					0.699818
+				],
+				[
+					-0.058202,
+					0.1,
+					0.078393
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					-0.515554,
+					0.1,
+					0.91973
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.628212,
+					0.1,
+					0.245258
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.585868,
+					0.1,
+					0.0162
+				],
+				[
+					-0.6895,
+					0.1,
+					0.788071
+				],
+				[
+					0.295405,
+					0.1,
+					0.090149
+				],
+				[
+					0.700055,
+					0.1,
+					0.67225
+				],
+				[
+					-0.044488,
+					0.1,
+					-0.65464
+				],
+				[
+					-0.065071,
+					0.1,
+					0.699818
+				],
+				[
+					-0.058202,
+					0.1,
+					0.078393
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.628212,
+					0.1,
+					0.245258
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.585868,
+					0.1,
+					0.0162
+				],
+				[
+					-0.6895,
+					0.1,
+					0.788071
+				],
+				[
+					0.295405,
+					0.1,
+					0.090149
+				],
+				[
+					0.700055,
+					0.1,
+					0.67225
+				],
+				[
+					-0.044488,
+					0.1,
+					-0.65464
+				],
+				[
+					-0.065071,
+					0.1,
+					0.699818
+				],
+				[
+					-0.058202,
+					0.1,
+					0.078393
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.585868,
+					0.1,
+					0.0162
+				],
+				[
+					-0.6895,
+					0.1,
+					0.788071
+				],
+				[
+					0.295405,
+					0.1,
+					0.090149
+				],
+				[
+					0.700055,
+					0.1,
+					0.67225
+				],
+				[
+					-0.044488,
+					0.1,
+					-0.65464
+				],
+				[
+					-0.065071,
+					0.1,
+					0.699818
+				],
+				[
+					-0.058202,
+					0.1,
+					0.078393
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					-0.6895,
+					0.1,
+					0.788071
+				],
+				[
+					0.295405,
+					0.1,
+					0.090149
+				],
+				[
+					0.700055,
+					0.1,
+					0.67225
+				],
+				[
+					-0.044488,
+					0.1,
+					-0.65464
+				],
+				[
+					-0.065071,
+					0.1,
+					0.699818
+				],
+				[
+					-0.058202,
+					0.1,
+					0.078393
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					-0.6895,
+					0.1,
+					0.788071
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.700055,
+					0.1,
+					0.67225
+				],
+				[
+					-0.044488,
+					0.1,
+					-0.65464
+				],
+				[
+					-0.065071,
+					0.1,
+					0.699818
+				],
+				[
+					-0.058202,
+					0.1,
+					0.078393
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					-0.6895,
+					0.1,
+					0.788071
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					-0.044488,
+					0.1,
+					-0.65464
+				],
+				[
+					-0.065071,
+					0.1,
+					0.699818
+				],
+				[
+					-0.058202,
+					0.1,
+					0.078393
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					-0.6895,
+					0.1,
+					0.788071
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					-0.065071,
+					0.1,
+					0.699818
+				],
+				[
+					-0.058202,
+					0.1,
+					0.078393
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					-0.6895,
+					0.1,
+					0.788071
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					-0.065071,
+					0.1,
+					0.699818
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					-0.6895,
+					0.1,
+					0.788071
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					0.666667,
+					0.1,
+					-0.333333
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					-0.584956,
+					0.1,
+					-0.031866
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					0.5,
+					0.1,
+					-0.5
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					0.666667,
+					0.1,
+					-0.333333
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					-0.390042,
+					0.1,
+					0.427794
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					0.333333,
+					0.1,
+					-0.666667
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					0.5,
+					0.1,
+					-0.5
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					0.666667,
+					0.1,
+					-0.333333
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					-0.361093,
+					0.1,
+					-0.656966
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					0.333333,
+					0.1,
+					-0.666667
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					0.5,
+					0.1,
+					-0.5
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					0.666667,
+					0.1,
+					-0.333333
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.723438,
+					0.1,
+					0.247144
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					0,
+					0.1,
+					-0.666667
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					0.333333,
+					0.1,
+					-0.666667
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					0.5,
+					0.1,
+					-0.5
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					0.666667,
+					0.1,
+					-0.333333
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					0.214662,
+					0.1,
+					0.92672
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					0,
+					0.1,
+					-0.666667
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					0.333333,
+					0.1,
+					-0.666667
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					0.5,
+					0.1,
+					-0.5
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					0.666667,
+					0.1,
+					-0.333333
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.656949,
+					0.1,
+					-0.788469
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.5
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					0,
+					0.1,
+					-0.666667
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					0.333333,
+					0.1,
+					-0.666667
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					0.5,
+					0.1,
+					-0.5
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					0.666667,
+					0.1,
+					-0.333333
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.062437,
+					0.1,
+					-0.419449
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.333333
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.5
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					0,
+					0.1,
+					-0.666667
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					0.333333,
+					0.1,
+					-0.666667
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					0.5,
+					0.1,
+					-0.5
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					0.666667,
+					0.1,
+					-0.333333
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.001716,
+					0.1,
+					-0.986708
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.166667
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.333333
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.5
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					0,
+					0.1,
+					-0.666667
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					0.333333,
+					0.1,
+					-0.666667
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					0.5,
+					0.1,
+					-0.5
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					0.666667,
+					0.1,
+					-0.333333
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			],
+			[
+				[
+					-0.899784,
+					0.1,
+					-0.194339
+				],
+				[
+					-0.333333,
+					0.1,
+					0
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.166667
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.333333
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.5
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					0,
+					0.1,
+					-0.666667
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					0.333333,
+					0.1,
+					-0.666667
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					0.5,
+					0.1,
+					-0.5
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					0.666667,
+					0.1,
+					-0.333333
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			],
+			[
+				[
+					-0.333333,
+					0.1,
+					0.166667
+				],
+				[
+					-0.333333,
+					0.1,
+					0
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.166667
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.333333
+				],
+				[
+					-0.333333,
+					0.1,
+					-0.5
+				],
+				[
+					-0.166667,
+					0.1,
+					0.333333
+				],
+				[
+					-0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0,
+					0.1,
+					0.5
+				],
+				[
+					0,
+					0.1,
+					-0.666667
+				],
+				[
+					0.166667,
+					0.1,
+					0.5
+				],
+				[
+					0.166667,
+					0.1,
+					-0.666667
+				],
+				[
+					0.333333,
+					0.1,
+					0.5
+				],
+				[
+					0.333333,
+					0.1,
+					-0.666667
+				],
+				[
+					0.5,
+					0.1,
+					0.5
+				],
+				[
+					0.5,
+					0.1,
+					-0.5
+				],
+				[
+					0.666667,
+					0.1,
+					0.333333
+				],
+				[
+					0.666667,
+					0.1,
+					0.166667
+				],
+				[
+					0.666667,
+					0.1,
+					0
+				],
+				[
+					0.666667,
+					0.1,
+					-0.333333
+				],
+				[
+					0.833333,
+					0.1,
+					-0.166667
+				]
+			]
+		],
+		"images": [
+			"7_num0_00.png",
+			"7_num0_01.png",
+			"7_num0_02.png",
+			"7_num0_03.png",
+			"7_num0_04.png",
+			"7_num0_05.png",
+			"7_num0_06.png",
+			"7_num0_07.png",
+			"7_num0_08.png",
+			"7_num0_09.png",
+			"7_num0_10.png",
+			"7_num0_11.png",
+			"7_num0_12.png",
+			"7_num0_13.png",
+			"7_num0_14.png",
+			"7_num0_15.png",
+			"7_num0_16.png",
+			"7_num0_17.png",
+			"7_num0_18.png",
+			"7_num0_19.png",
+			"7_num0_20.png"
+		],
+		"side_length": 0.1524
+	}
+]

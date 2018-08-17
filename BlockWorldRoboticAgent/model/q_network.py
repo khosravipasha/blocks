@@ -70,11 +70,11 @@ class ActionValueFunctionNetwork:
         self.model_output = self.mix_and_gen_q_val.get_q_val()
         self.model_output_indices = tf.placeholder(dtype=tf.int32, shape=None)
 
-        summary_qval_min = tf.scalar_summary("Q Val Min", tf.reduce_min(self.model_output))
-        summary_qval_max = tf.scalar_summary("Q Val Max", tf.reduce_max(self.model_output))
-        summary_qval_mean = tf.scalar_summary("Q Val Mean", tf.reduce_mean(self.model_output))
+        summary_qval_min = tf.summary.scalar("Q Val Min", tf.reduce_min(self.model_output))
+        summary_qval_max = tf.summary.scalar("Q Val Max", tf.reduce_max(self.model_output))
+        summary_qval_mean = tf.summary.scalar("Q Val Mean", tf.reduce_mean(self.model_output))
 
-        self.feed_forward_summary = tf.merge_summary([summary_qval_min, summary_qval_max, summary_qval_mean])
+        self.feed_forward_summary = tf.summary.merge([summary_qval_min, summary_qval_max, summary_qval_mean])
         self.feed_iter = 0
 
     def get_bucket_network(self, num_tokens):
