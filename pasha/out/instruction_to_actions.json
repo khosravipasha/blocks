@@ -15744,8 +15744,54 @@
       "16 south"
     ]
   ], 
+  "originalActions": [
+    "5 east", 
+    "5 north", 
+    "5 north", 
+    "5 north", 
+    "5 north", 
+    "5 north", 
+    "5 west", 
+    "5 north", 
+    "5 south", 
+    "5 north", 
+    "5 north", 
+    "5 west", 
+    "5 north", 
+    "5 south", 
+    "5 west", 
+    "5 north", 
+    "5 north", 
+    "5 north", 
+    "5 north", 
+    "5 west", 
+    "5 north", 
+    "5 south", 
+    "5 north", 
+    "5 west", 
+    "5 north", 
+    "5 west", 
+    "5 west", 
+    "5 west", 
+    "5 east", 
+    "5 west", 
+    "5 west", 
+    "5 east", 
+    "5 west", 
+    "5 west", 
+    "5 east", 
+    "5 west", 
+    "5 west", 
+    "5 east", 
+    "5 west", 
+    "5 west"
+  ], 
   "perturbs": {
     "pick up block and place directly of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 east", 
         "9 north", 
@@ -15767,6 +15813,10 @@
       ]
     }, 
     "block 12 and place directly to right of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -15791,6 +15841,10 @@
       ]
     }, 
     "10 and place so directly to the right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -15835,6 +15889,10 @@
       ]
     }, 
     "move 19 to block at that top corner of block touches bottom left corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -15879,6 +15937,10 @@
       ]
     }, 
     "up block 8 and move that bottom left block touches right block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -15923,6 +15985,10 @@
       ]
     }, 
     "up block 20 and place it next block so the top left corner of block 20 touches the right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -15934,6 +16000,10 @@
       ]
     }, 
     "lift block 17 over 16 and place so that it is block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -15958,6 +16028,10 @@
       ]
     }, 
     "move diagonal the of touches bottom left corner block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 west", 
@@ -16002,6 +16076,10 @@
       ]
     }, 
     "slide the up so that is directly under": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "3 east", 
         "3 south", 
@@ -16035,6 +16113,10 @@
       ]
     }, 
     "block up it is directly to 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -16078,7 +16160,38 @@
         "12 east"
       ]
     }, 
+    "and then so it directly under block": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "15 south", 
+        "15 north", 
+        "15 north", 
+        "15 north", 
+        "12 west", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 east", 
+        "13 east", 
+        "12 west", 
+        "12 south", 
+        "12 east", 
+        "12 south", 
+        "Stop"
+      ]
+    }, 
     "lift block over block 16 and place it so it is below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 north", 
@@ -16087,6 +16200,10 @@
       ]
     }, 
     "lift up block 17 over 16 and it so that it is directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -16131,6 +16248,10 @@
       ]
     }, 
     "Pick block 10 and place it so it is directly to the right block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -16175,6 +16296,10 @@
       ]
     }, 
     "pick up and it directly the right of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 east", 
         "9 north", 
@@ -16219,6 +16344,10 @@
       ]
     }, 
     "slide block 14 up that directly to the block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -16263,6 +16392,10 @@
       ]
     }, 
     "pick up block 12 and place it directly the of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -16302,6 +16435,10 @@
       ]
     }, 
     "block so directly to the block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 west", 
@@ -16346,6 +16483,10 @@
       ]
     }, 
     "move up and to the right so top corner of block 16 touches the right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 east", 
         "15 north", 
@@ -16390,6 +16531,10 @@
       ]
     }, 
     "slide block 18 right and then up that it is under block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -16401,6 +16546,10 @@
       ]
     }, 
     "block move that the corner of block 8 touches the top right corner": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -16445,6 +16594,10 @@
       ]
     }, 
     "slide block 14 up so that it directly to the right of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -16489,6 +16642,10 @@
       ]
     }, 
     "up block 17 over block 16 and place so that is below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -16516,6 +16673,10 @@
       ]
     }, 
     "up block 10 place so is directly to the right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -16560,6 +16721,10 @@
       ]
     }, 
     "move block 19 to below block at a diagonal so that the top right corner of block 19 touches left corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -16604,6 +16769,10 @@
       ]
     }, 
     "slide 14 up so that it is directly to the right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -16648,6 +16817,10 @@
       ]
     }, 
     "block and place it it to the right block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "8 east", 
         "8 east", 
@@ -16692,6 +16865,10 @@
       ]
     }, 
     "Pick block 8 and move it that the bottom left of block the top right corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 west", 
         "7 north", 
@@ -16736,6 +16913,10 @@
       ]
     }, 
     "block 14 up so that it to the 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -16780,6 +16961,10 @@
       ]
     }, 
     "pick block place it directly the block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "8 south", 
         "8 south", 
@@ -16824,6 +17009,10 @@
       ]
     }, 
     "pick up 12 and place it directly to the right": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -16850,6 +17039,10 @@
       ]
     }, 
     "pick up block 12 and place it directly the right": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -16894,6 +17087,10 @@
       ]
     }, 
     "up block over block and it is": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -16938,6 +17135,10 @@
       ]
     }, 
     "up 10 place it it is to the of 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -16981,51 +17182,29 @@
         "9 west"
       ]
     }, 
-    "pick up block and place it the right 10": {
+    "Pick up 8 and it so that the bottom corner of block 8 touches corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "9 east", 
-        "9 north", 
-        "9 east", 
-        "9 north", 
-        "9 west", 
-        "9 north", 
-        "9 west", 
-        "11 west", 
-        "11 east", 
-        "10 north", 
-        "10 west", 
-        "10 south", 
-        "10 south", 
-        "10 north", 
-        "10 south", 
-        "10 south", 
-        "10 east", 
-        "10 south", 
-        "10 east", 
-        "13 south", 
-        "13 north", 
-        "13 west", 
-        "13 north", 
-        "13 north", 
-        "13 north", 
-        "13 north", 
-        "13 east", 
-        "13 west", 
-        "11 east", 
-        "12 north", 
-        "12 south", 
-        "12 east", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 east", 
-        "12 south", 
-        "12 east", 
-        "12 west"
+        "7 east", 
+        "7 north", 
+        "7 north", 
+        "7 north", 
+        "7 north", 
+        "7 east", 
+        "7 north", 
+        "7 east", 
+        "7 west", 
+        "Stop"
       ]
     }, 
     "move and the so left corner block 16 bottom right 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -17036,6 +17215,10 @@
       ]
     }, 
     "move 16 up and to so that top of touches the bottom 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -17043,6 +17226,10 @@
       ]
     }, 
     "16 and top left corner 16 touches the corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -17050,6 +17237,10 @@
       ]
     }, 
     "and it so is on diagonal between": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -17094,6 +17285,10 @@
       ]
     }, 
     "move block 19 to block 20 a diagonal so that the top right corner of 19 touches left corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -17138,6 +17333,10 @@
       ]
     }, 
     "Pick up and place it on a diagonal 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 east", 
         "9 south", 
@@ -17182,6 +17381,10 @@
       ]
     }, 
     "block 16 to the right so that left corner of block touches bottom right corner of 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -17192,6 +17395,10 @@
       ]
     }, 
     "Pick up 6 place so it on diagonal blocks 11 and": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -17236,6 +17443,10 @@
       ]
     }, 
     "Pick and place it is on 11 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -17269,6 +17480,10 @@
       ]
     }, 
     "pick block and place it directly the of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 east", 
         "9 west", 
@@ -17292,6 +17507,10 @@
       ]
     }, 
     "Pick up 8 move it so that bottom of block 8 touches top right corner of 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -17336,6 +17555,10 @@
       ]
     }, 
     "slide right and then up it directly": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -17380,6 +17603,10 @@
       ]
     }, 
     "and to the top left of block 16 the corner block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -17403,6 +17630,10 @@
       ]
     }, 
     "slide block up so that it is directly to the right of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "1 east", 
         "1 north", 
@@ -17428,6 +17659,10 @@
       ]
     }, 
     "block and it is directly to right 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "4 east", 
         "4 west", 
@@ -17471,25 +17706,11 @@
         "4 west"
       ]
     }, 
-    "move block 19 to below block 20 at a diagonal right corner of block left of block 20": {
-      "actions": [
-        "18 south", 
-        "18 south", 
-        "18 west", 
-        "18 south", 
-        "18 south", 
-        "18 south", 
-        "19 west", 
-        "19 north", 
-        "19 north", 
-        "19 north", 
-        "19 south", 
-        "19 east", 
-        "19 north", 
-        "Stop"
-      ]
-    }, 
     "pick up block and place it next block 18 so that the top of block 20 touches the bottom right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 east", 
         "5 south", 
@@ -17534,6 +17755,10 @@
       ]
     }, 
     "up 17 over block 16 place it that it is below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -17561,6 +17786,10 @@
       ]
     }, 
     "slide block 18 to right and then up that it directly under 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -17572,6 +17801,10 @@
       ]
     }, 
     "Pick block 10 and place it so it is directly to the right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -17616,6 +17849,10 @@
       ]
     }, 
     "lift up block 17 over block 16 place it so that it is directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -17660,6 +17897,10 @@
       ]
     }, 
     "slide the right and then that it is directly 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 east", 
@@ -17704,6 +17945,10 @@
       ]
     }, 
     "slide block 14 up so that it is directly to the right block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -17748,6 +17993,10 @@
       ]
     }, 
     "Pick up block 8 and move it so that the bottom left corner block touches the right corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -17792,6 +18041,10 @@
       ]
     }, 
     "slide block to then up so that it is under block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 south", 
         "5 west", 
@@ -17807,6 +18060,10 @@
       ]
     }, 
     "block 14 up so is the right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 north", 
@@ -17815,6 +18072,10 @@
       ]
     }, 
     "up 20 and place next to block 18 so that the top left corner of 20 touches the bottom right of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -17826,6 +18087,10 @@
       ]
     }, 
     "move block 16 up and to the right so that the top left corner of 16 touches the bottom right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -17870,6 +18135,10 @@
       ]
     }, 
     "move to below block at a so top right corner block 19 left corner": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 south", 
         "5 west", 
@@ -17884,6 +18153,10 @@
       ]
     }, 
     "pick block and place directly to the right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -17928,6 +18201,10 @@
       ]
     }, 
     "up 6 place it so it is blocks 11 and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 south", 
         "5 north", 
@@ -17954,6 +18231,10 @@
       ]
     }, 
     "slide up so that is to of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "3 east", 
         "3 south", 
@@ -17998,6 +18279,10 @@
       ]
     }, 
     "slide block so that it directly the right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 west", 
@@ -18042,6 +18327,10 @@
       ]
     }, 
     "slide 14 up so that it is directly to right 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -18086,6 +18375,10 @@
       ]
     }, 
     "pick up 20 and place it next to block 18 so that the top left corner of block 20 touches the right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -18097,6 +18390,10 @@
       ]
     }, 
     "Pick up 8 and move it so that the left of 8 touches the top right of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -18111,6 +18408,10 @@
       ]
     }, 
     "pick block so the left corner of the corner of 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 east", 
         "5 south", 
@@ -18154,27 +18455,22 @@
         "5 north"
       ]
     }, 
-    "lift up 17 block 16 place so is directly block 16": {
+    "move block 16 up and right so that the top left corner of touches the bottom of 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
-        "15 north", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
         "15 west", 
-        "15 west", 
-        "15 north", 
-        "15 west", 
-        "15 north", 
-        "15 west", 
-        "15 west", 
-        "15 north", 
-        "15 south", 
         "Stop"
       ]
     }, 
     "lift up block 17 over block 16 and place it so that it is directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -18219,6 +18515,10 @@
       ]
     }, 
     "Pick up block 6 and place it so it is on a diagonal between blocks 11 and 20": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -18263,6 +18563,10 @@
       ]
     }, 
     "Pick up it so directly of 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 east", 
         "9 south", 
@@ -18307,6 +18611,10 @@
       ]
     }, 
     "pick up block 12 and place it to the right of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -18351,6 +18659,10 @@
       ]
     }, 
     "up 16 so it is directly below": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 north", 
@@ -18374,6 +18686,10 @@
       ]
     }, 
     "Pick block so it the block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -18406,6 +18722,10 @@
       ]
     }, 
     "pick up block 20 and place it next to block 18 so that the top left of block 20 touches the bottom corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -18417,6 +18737,10 @@
       ]
     }, 
     "block the right so it is block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "4 south", 
         "4 north", 
@@ -18461,6 +18785,10 @@
       ]
     }, 
     "and place so that directly below block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 west", 
@@ -18505,6 +18833,10 @@
       ]
     }, 
     "14 so that it is to right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -18520,6 +18852,10 @@
       ]
     }, 
     "pick block 12 and place it directly to the of 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -18544,6 +18880,10 @@
       ]
     }, 
     "block that it is directly to the right of 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 west", 
@@ -18588,6 +18928,10 @@
       ]
     }, 
     "Pick up block 6 and it is on a diagonal blocks 11 and": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -18632,6 +18976,10 @@
       ]
     }, 
     "move 16 and to the right that the top left block 16 touches the bottom right corner of 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -18676,6 +19024,10 @@
       ]
     }, 
     "move block block 20 at a diagonal that the right corner block 19 touches the left corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -18693,6 +19045,10 @@
       ]
     }, 
     "pick up block 20 place it next block that the corner block 20 touches bottom of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -18704,6 +19060,10 @@
       ]
     }, 
     "pick up block 20 and place it next block 18 so that top left corner of 20 the bottom right corner block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -18715,6 +19075,10 @@
       ]
     }, 
     "block up so that it is to the of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -18759,6 +19123,10 @@
       ]
     }, 
     "block 19 below block 20 at a diagonal the top right corner of block 19 the corner block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -18803,6 +19171,10 @@
       ]
     }, 
     "pick up block 20 and place it next to 18 so that the top corner of block 20 touches the bottom corner of 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -18814,6 +19186,10 @@
       ]
     }, 
     "block 18 to right then so it under 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -18825,6 +19201,10 @@
       ]
     }, 
     "20 a diagonal so the top of 19 touches left 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -18869,6 +19249,10 @@
       ]
     }, 
     "up 20 place it 18 so that the top left corner block 20 touches right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -18880,6 +19264,10 @@
       ]
     }, 
     "slide block 18 to the and then so it directly under": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -18891,6 +19279,10 @@
       ]
     }, 
     "block 16 up and to the right so that the top left corner of block touches bottom right corner": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -18898,6 +19290,10 @@
       ]
     }, 
     "slide 14 up that it to the block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -18941,51 +19337,11 @@
         "13 south"
       ]
     }, 
-    "block 10 and place it so it is right of block 8": {
-      "actions": [
-        "9 south", 
-        "9 west", 
-        "9 south", 
-        "9 south", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west", 
-        "9 west"
-      ]
-    }, 
     "pick up block 12 and place it directly to the right of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -19030,6 +19386,10 @@
       ]
     }, 
     "Pick up block and move it so that the left corner of block 8 the right corner block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -19074,6 +19434,10 @@
       ]
     }, 
     "below block 20 at a the right corner of block touches bottom left corner": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -19091,6 +19455,10 @@
       ]
     }, 
     "lift block 17 over block it so that is below": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -19135,6 +19503,10 @@
       ]
     }, 
     "move block to block 20 at so the top right corner of block touches bottom of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -19164,6 +19536,10 @@
       ]
     }, 
     "up block 20 and it next to block 18 that left corner of block bottom right of 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -19175,6 +19551,10 @@
       ]
     }, 
     "over 16 and place below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 north", 
@@ -19202,6 +19582,10 @@
       ]
     }, 
     "slide 18 to the right so that is directly under": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -19211,6 +19595,10 @@
       ]
     }, 
     "slide block the and up so it under block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "8 east", 
         "8 east", 
@@ -19255,6 +19643,10 @@
       ]
     }, 
     "slide block 14 up so it directly to the right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -19299,6 +19691,10 @@
       ]
     }, 
     "block that it is the right block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 west", 
         "11 west", 
@@ -19343,6 +19739,10 @@
       ]
     }, 
     "Pick up block 6 it is on a diagonal 11 20": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -19387,6 +19787,10 @@
       ]
     }, 
     "block it directly to of 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 west", 
@@ -19431,6 +19835,10 @@
       ]
     }, 
     "Pick up 10 and place it so is directly to the of 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -19475,6 +19883,10 @@
       ]
     }, 
     "Pick up 6 and place so it a 11 and": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -19519,6 +19931,10 @@
       ]
     }, 
     "block 16 and it so is block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 north", 
@@ -19537,6 +19953,10 @@
       ]
     }, 
     "Pick block and move so that bottom left corner 8 the right block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -19581,6 +20001,10 @@
       ]
     }, 
     "up block 8 and move it so that the of touches the right of 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -19625,6 +20049,10 @@
       ]
     }, 
     "block 14 so that it is directly to the block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -19640,6 +20068,10 @@
       ]
     }, 
     "up block 17 over place it so that it": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -19684,6 +20116,10 @@
       ]
     }, 
     "Pick up block 6 and place it so is on a diagonal between blocks 11 20": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -19728,6 +20164,10 @@
       ]
     }, 
     "slide block 18 the and up so that it is under 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -19739,6 +20179,10 @@
       ]
     }, 
     "up it the right block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "12 east", 
         "12 south", 
@@ -19783,6 +20227,10 @@
       ]
     }, 
     "Pick up 8 and move that the of block 8 touches the right of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -19827,6 +20275,10 @@
       ]
     }, 
     "Pick 8 it the left corner top corner 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -19871,6 +20323,10 @@
       ]
     }, 
     "Pick so it is to right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 west", 
@@ -19915,6 +20371,10 @@
       ]
     }, 
     "Pick up block 8 and it that the left corner of block 8 touches the top corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -19959,6 +20419,10 @@
       ]
     }, 
     "Pick block 6 and place so it is on a between blocks 11 and": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -19989,6 +20453,10 @@
       ]
     }, 
     "block 19 to block 20 at diagonal so that the right corner of block left corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -20006,6 +20474,10 @@
       ]
     }, 
     "pick up block place it directly to the right of 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 west", 
@@ -20050,6 +20522,10 @@
       ]
     }, 
     "Pick block 6 and place it so it is a between and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 north", 
         "5 north", 
@@ -20077,7 +20553,59 @@
         "Stop"
       ]
     }, 
+    "to the right and then up so is directly under 17": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "12 south", 
+        "7 south", 
+        "7 south", 
+        "7 east", 
+        "8 west", 
+        "8 south", 
+        "8 south", 
+        "8 west", 
+        "8 south", 
+        "8 south", 
+        "8 south", 
+        "8 south", 
+        "8 east", 
+        "8 south", 
+        "7 east", 
+        "8 west", 
+        "8 east", 
+        "8 west", 
+        "8 east", 
+        "8 west", 
+        "8 east", 
+        "8 west", 
+        "8 east", 
+        "8 west", 
+        "8 east", 
+        "8 west", 
+        "8 east", 
+        "8 west", 
+        "8 east", 
+        "8 west", 
+        "8 east", 
+        "8 west", 
+        "8 east", 
+        "8 west", 
+        "8 east", 
+        "8 west", 
+        "8 east", 
+        "8 west", 
+        "8 east", 
+        "8 west"
+      ]
+    }, 
     "pick up 12 and place it to right": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -20122,6 +20650,10 @@
       ]
     }, 
     "move block 20 at a the right block the left corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -20135,21 +20667,14 @@
         "19 north", 
         "19 south", 
         "19 east", 
-        "Stop"
-      ]
-    }, 
-    "slide block 18 to the right and up so it is directly 17": {
-      "actions": [
-        "17 south", 
-        "17 south", 
-        "17 south", 
-        "17 south", 
-        "17 south", 
-        "17 east", 
         "Stop"
       ]
     }, 
     "pick up block 20 and place it next to block 18 so that the left corner of block 20 touches the bottom corner block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -20161,6 +20686,10 @@
       ]
     }, 
     "slide 14 so that it is to the of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -20185,6 +20714,10 @@
       ]
     }, 
     "place directly right of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -20229,6 +20762,10 @@
       ]
     }, 
     "up block 17 over 16 and so it directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -20273,6 +20810,10 @@
       ]
     }, 
     "Pick up block 8 and so the left block the right": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -20317,6 +20858,10 @@
       ]
     }, 
     "lift block block 16 it it is directly below block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 north", 
@@ -20337,6 +20882,10 @@
       ]
     }, 
     "slide right and up so is directly under block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "12 east", 
         "12 south", 
@@ -20366,6 +20915,10 @@
       ]
     }, 
     "move block 19 to below block 20 at a so that the top right corner of block 19 the corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -20410,6 +20963,10 @@
       ]
     }, 
     "block up to the right so left corner touches right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "3 east", 
         "3 south", 
@@ -20454,6 +21011,10 @@
       ]
     }, 
     "Pick up block and move it so that the bottom left corner of block 8 touches the right corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -20498,6 +21059,10 @@
       ]
     }, 
     "up block 8 and it so that the bottom left of block touches the top right corner of 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -20542,6 +21107,10 @@
       ]
     }, 
     "block and place it next block 18 left block 20 touches the bottom right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 west", 
@@ -20573,6 +21142,10 @@
       ]
     }, 
     "Pick up block place it on a diagonal between blocks 11 and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -20617,6 +21190,10 @@
       ]
     }, 
     "pick up block 12 it directly the 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -20643,6 +21220,10 @@
       ]
     }, 
     "move 19 to below block 20 at diagonal that the corner of block 19 left corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -20687,6 +21268,10 @@
       ]
     }, 
     "up block 17 block and it so directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 east", 
         "16 west", 
@@ -20731,6 +21316,10 @@
       ]
     }, 
     "pick up place directly the right 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -20775,6 +21364,10 @@
       ]
     }, 
     "pick 12 place it directly the right block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -20819,6 +21412,10 @@
       ]
     }, 
     "move block up and to the left block 16 bottom corner block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -20863,6 +21460,10 @@
       ]
     }, 
     "Pick block 8 and move it so that the bottom left corner of 8 touches the top of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -20907,6 +21508,10 @@
       ]
     }, 
     "Pick up block and move so that bottom left of block 8 touches the top right block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -20951,6 +21556,10 @@
       ]
     }, 
     "pick 12 and place it to of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -20995,6 +21604,10 @@
       ]
     }, 
     "Pick up place it so to the right of 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 west", 
@@ -21039,6 +21652,10 @@
       ]
     }, 
     "Pick block and it is 11 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 south", 
@@ -21083,6 +21700,10 @@
       ]
     }, 
     "and directly the right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -21110,6 +21731,10 @@
       ]
     }, 
     "pick up block and it 18 the top left corner the bottom right of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -21131,6 +21756,10 @@
       ]
     }, 
     "slide block 18 the and then so that it is directly under block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -21142,6 +21771,10 @@
       ]
     }, 
     "up block 10 and place it so it is to the right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -21185,51 +21818,33 @@
         "9 west"
       ]
     }, 
-    "pick up block 12 and place it the right block 10": {
+    "move block 19 to below block 20 at a diagonal right corner of block left of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "11 east", 
-        "11 north", 
-        "11 west", 
-        "11 north", 
-        "11 north", 
-        "11 north", 
-        "11 south", 
-        "11 north", 
-        "11 south", 
-        "11 west", 
-        "11 south", 
-        "11 north", 
-        "11 west", 
-        "11 south", 
-        "11 north", 
-        "11 west", 
-        "11 south", 
-        "11 north", 
-        "11 west", 
-        "11 south", 
-        "11 north", 
-        "11 west", 
-        "11 south", 
-        "11 north", 
-        "11 west", 
-        "11 south", 
-        "11 north", 
-        "11 west", 
-        "11 south", 
-        "11 north", 
-        "11 west", 
-        "11 south", 
-        "11 north", 
-        "11 west", 
-        "11 south", 
-        "11 north", 
-        "11 west", 
-        "11 south", 
-        "11 north", 
-        "11 west"
+        "18 south", 
+        "18 south", 
+        "18 west", 
+        "18 south", 
+        "18 south", 
+        "18 south", 
+        "19 west", 
+        "19 north", 
+        "19 north", 
+        "19 north", 
+        "19 south", 
+        "19 east", 
+        "19 north", 
+        "Stop"
       ]
     }, 
     "pick 20 place to 18 that top left of block 20 touches bottom right block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -21241,6 +21856,10 @@
       ]
     }, 
     "Pick up block 6 and place it so is on a diagonal between blocks 11 and 20": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -21285,6 +21904,10 @@
       ]
     }, 
     "up block move it the bottom left corner 8 touches the top right": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -21329,6 +21952,10 @@
       ]
     }, 
     "slide block 18 to the right and then up so that it is directly under 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -21340,6 +21967,10 @@
       ]
     }, 
     "Pick up 10 and so it is directly to the right of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -21384,6 +22015,10 @@
       ]
     }, 
     "up block 8 move the bottom corner top right corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -21428,6 +22063,10 @@
       ]
     }, 
     "Pick block 6 and place so it is on a diagonal between blocks 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 north", 
         "5 north", 
@@ -21456,6 +22095,10 @@
       ]
     }, 
     "pick up block 20 and place it block so that the top left of block 20 touches the bottom right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -21467,6 +22110,10 @@
       ]
     }, 
     "Pick up block and move so the bottom left corner of block touches the corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -21511,6 +22158,10 @@
       ]
     }, 
     "move block to below block at a so that the top right of block touches the bottom left corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 south", 
         "5 west", 
@@ -21549,6 +22200,10 @@
       ]
     }, 
     "block and the right so the left of block 16 touches the right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -21593,6 +22248,10 @@
       ]
     }, 
     "Pick block and place it so is directly to the right block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "8 east", 
         "8 east", 
@@ -21637,6 +22296,10 @@
       ]
     }, 
     "Pick 8 and move it so the bottom left corner block 8 touches the top right of 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -21681,6 +22344,10 @@
       ]
     }, 
     "pick up 12 it directly to right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -21716,6 +22383,10 @@
       ]
     }, 
     "and to so that top left corner block the right corner": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 south", 
         "5 west", 
@@ -21739,6 +22410,10 @@
       ]
     }, 
     "slide block so that it is directly to right of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 west", 
@@ -21783,6 +22458,10 @@
       ]
     }, 
     "block 14 up so that it is directly to the right of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -21827,6 +22506,10 @@
       ]
     }, 
     "Pick up block 10 and place it so is directly to right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -21871,6 +22554,10 @@
       ]
     }, 
     "lift up block 17 block 16 and place it so it is below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 north", 
@@ -21891,6 +22578,10 @@
       ]
     }, 
     "up place directly to right 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -21934,51 +22625,74 @@
         "4 west"
       ]
     }, 
-    "Pick up place a diagonal between blocks 11 20": {
+    "pick up block and place it the right 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "10 south", 
-        "10 south", 
-        "10 south", 
+        "9 east", 
+        "9 north", 
+        "9 east", 
+        "9 north", 
+        "9 west", 
+        "9 north", 
+        "9 west", 
+        "11 west", 
+        "11 east", 
+        "10 north", 
         "10 west", 
         "10 south", 
         "10 south", 
-        "10 west", 
-        "10 south", 
         "10 north", 
         "10 south", 
-        "10 west", 
-        "10 north", 
         "10 south", 
-        "10 north", 
+        "10 east", 
         "10 south", 
-        "10 west", 
-        "10 north", 
-        "10 south", 
-        "10 north", 
-        "10 south", 
-        "10 north", 
-        "10 south", 
-        "10 west", 
-        "10 north", 
-        "10 south", 
-        "10 north", 
-        "10 south", 
-        "10 north", 
-        "10 south", 
-        "10 north", 
-        "10 south", 
-        "10 west", 
-        "10 north", 
-        "10 south", 
-        "10 north", 
-        "10 south", 
-        "10 north", 
-        "10 south", 
-        "10 west", 
-        "10 north"
+        "10 east", 
+        "13 south", 
+        "13 north", 
+        "13 west", 
+        "13 north", 
+        "13 north", 
+        "13 north", 
+        "13 north", 
+        "13 east", 
+        "13 west", 
+        "11 east", 
+        "12 north", 
+        "12 south", 
+        "12 east", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 east", 
+        "12 south", 
+        "12 east", 
+        "12 west"
+      ]
+    }, 
+    "slide block 18 to the right and then up so that is directly under": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "17 south", 
+        "17 south", 
+        "17 south", 
+        "17 south", 
+        "17 south", 
+        "17 east", 
+        "Stop"
       ]
     }, 
     "block 10 it directly to right block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 west", 
         "9 south", 
@@ -22023,6 +22737,10 @@
       ]
     }, 
     "8 and that the block 8 touches top block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 west", 
         "7 north", 
@@ -22067,6 +22785,10 @@
       ]
     }, 
     "Pick up block 10 and place it so it is directly the of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -22111,6 +22833,10 @@
       ]
     }, 
     "move block to 20 a diagonal that top right of block 19 touches the bottom left corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -22125,6 +22851,10 @@
       ]
     }, 
     "pick block 12 place it directly to the right block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -22146,6 +22876,10 @@
       ]
     }, 
     "move block 19 to block 20 at a diagonal so that the right corner 19 the left corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -22163,6 +22897,10 @@
       ]
     }, 
     "Pick up it is on a diagonal 11 and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "10 east", 
         "10 south", 
@@ -22207,6 +22945,10 @@
       ]
     }, 
     "slide block 14 up so that it is to right block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -22251,6 +22993,10 @@
       ]
     }, 
     "lift up block 17 over block 16 and so that it is directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -22295,6 +23041,10 @@
       ]
     }, 
     "Pick it a blocks 11 and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "10 south", 
         "10 south", 
@@ -22339,6 +23089,10 @@
       ]
     }, 
     "pick up block 20 next to block 18 so that top left block 20 touches the bottom right corner block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -22350,6 +23104,10 @@
       ]
     }, 
     "Pick up 10 it it is directly to the of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -22394,6 +23152,10 @@
       ]
     }, 
     "pick up block 12 and place it directly to right of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -22438,6 +23200,10 @@
       ]
     }, 
     "up block place so is directly to the right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "3 east", 
         "3 south", 
@@ -22482,6 +23248,10 @@
       ]
     }, 
     "pick up and place it next to 18 that top left corner block 20 touches the bottom right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "14 east", 
         "14 south", 
@@ -22526,6 +23296,10 @@
       ]
     }, 
     "Pick up 8 and move it so that the left corner of block 8 touches the top right corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -22570,6 +23344,10 @@
       ]
     }, 
     "lift up block 17 over 16 place so that it is directly block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -22614,6 +23392,10 @@
       ]
     }, 
     "block 8 and move it so that the bottom left corner of block 8 touches the right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -22658,6 +23440,10 @@
       ]
     }, 
     "pick block 12 place it directly the right block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -22679,6 +23465,10 @@
       ]
     }, 
     "Pick up 6 and place it so it a diagonal between blocks 11 and 20": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -22723,6 +23513,10 @@
       ]
     }, 
     "Pick up block 10 place it is directly to the of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -22767,6 +23561,10 @@
       ]
     }, 
     "Pick up block 10 and place it so it is directly to the right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -22811,6 +23609,10 @@
       ]
     }, 
     "Pick up block 10 and place it so it directly right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -22855,6 +23657,10 @@
       ]
     }, 
     "Pick up block 8 and move so that the bottom left corner block 8 touches the top right corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -22899,6 +23705,10 @@
       ]
     }, 
     "pick and directly to block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -22943,6 +23753,10 @@
       ]
     }, 
     "pick 12 and place to the 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -22987,6 +23801,10 @@
       ]
     }, 
     "move block to block 20 at diagonal top right of block the bottom left corner": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -23001,6 +23819,10 @@
       ]
     }, 
     "pick up 20 and it block 18 so that the top left corner of block touches the right corner of 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -23012,6 +23834,10 @@
       ]
     }, 
     "up 17 block 16 and so that it directly below": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 north", 
@@ -23037,6 +23863,10 @@
       ]
     }, 
     "to the right and up so block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 south", 
@@ -23058,6 +23888,10 @@
       ]
     }, 
     "block to the and so that is directly under block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 west", 
@@ -23102,6 +23936,10 @@
       ]
     }, 
     "slide block 14 up so that is directly to the of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -23146,6 +23984,10 @@
       ]
     }, 
     "lift block over 16 place it below block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 west", 
@@ -23168,6 +24010,10 @@
       ]
     }, 
     "to and so that is under block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -23193,6 +24039,10 @@
       ]
     }, 
     "block 18 to the right and then up so that it is directly under block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -23204,6 +24054,10 @@
       ]
     }, 
     "move block 19 to below at a diagonal that the right of block touches the bottom left corner block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -23248,6 +24102,10 @@
       ]
     }, 
     "up block 17 and place it is below block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -23292,6 +24150,10 @@
       ]
     }, 
     "lift up 17 over block and place it so that is directly 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -23336,6 +24198,10 @@
       ]
     }, 
     "Pick up it so on a diagonal blocks": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 east", 
         "9 south", 
@@ -23352,6 +24218,10 @@
       ]
     }, 
     "lift up 17 over block 16 it so that is directly block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -23379,6 +24249,10 @@
       ]
     }, 
     "and place it it is directly to the right of 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "13 west", 
@@ -23417,6 +24291,10 @@
       ]
     }, 
     "up to so the top left corner of block 16 the of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "3 south", 
         "3 south", 
@@ -23461,6 +24339,10 @@
       ]
     }, 
     "lift up 17 16 place it so it block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -23504,7 +24386,33 @@
         "16 south"
       ]
     }, 
+    "block block 16 so is directly block": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 north", 
+        "15 west", 
+        "15 west", 
+        "15 west", 
+        "15 north", 
+        "15 west", 
+        "15 west", 
+        "15 north", 
+        "15 south", 
+        "Stop"
+      ]
+    }, 
     "Pick up 8 and move so that the left corner of 8 right corner of 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -23519,6 +24427,10 @@
       ]
     }, 
     "slide block 18 to the right and then so that it is block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -23530,6 +24442,10 @@
       ]
     }, 
     "lift block over 16 and place it that is directly block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 north", 
@@ -23567,6 +24483,10 @@
       ]
     }, 
     "pick 20 place it next to 18 that top corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -23578,6 +24498,10 @@
       ]
     }, 
     "move block at a that corner of 19 touches the left corner block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 south", 
@@ -23622,6 +24546,10 @@
       ]
     }, 
     "Pick up block place it it is on a blocks": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -23665,7 +24593,59 @@
         "8 west"
       ]
     }, 
+    "pick up 12 and it directly right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "11 east", 
+        "11 north", 
+        "11 west", 
+        "11 north", 
+        "11 north", 
+        "11 north", 
+        "11 south", 
+        "11 north", 
+        "11 south", 
+        "11 west", 
+        "11 south", 
+        "11 north", 
+        "11 west", 
+        "11 south", 
+        "11 north", 
+        "11 west", 
+        "11 south", 
+        "11 north", 
+        "11 west", 
+        "11 south", 
+        "11 north", 
+        "11 west", 
+        "11 south", 
+        "11 north", 
+        "11 west", 
+        "11 south", 
+        "11 north", 
+        "11 west", 
+        "11 south", 
+        "11 north", 
+        "11 west", 
+        "11 south", 
+        "11 north", 
+        "11 west", 
+        "11 south", 
+        "11 north", 
+        "11 west", 
+        "11 south", 
+        "11 north", 
+        "11 west"
+      ]
+    }, 
     "pick up block 20 and place it next to block 18 so that the top left corner of 20 touches the bottom right of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -23677,6 +24657,10 @@
       ]
     }, 
     "pick next to 18 left block 20 bottom right corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 north", 
@@ -23702,6 +24686,10 @@
       ]
     }, 
     "and place it is on diagonal blocks 11 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -23735,6 +24723,10 @@
       ]
     }, 
     "block 14 up so that it is directly to of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -23779,6 +24771,10 @@
       ]
     }, 
     "slide block then so that it directly block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "8 east", 
         "8 east", 
@@ -23823,6 +24819,10 @@
       ]
     }, 
     "move block 19 to below block 20 at a diagonal so that the top right corner of block 19 touches the bottom left corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -23867,6 +24867,10 @@
       ]
     }, 
     "slide 14 up so it is directly to right of 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -23911,6 +24915,10 @@
       ]
     }, 
     "pick and place directly the 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -23955,6 +24963,10 @@
       ]
     }, 
     "block up to so top left of block touches bottom": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -23999,6 +25011,10 @@
       ]
     }, 
     "slide block 18 to the and then up that it directly under block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -24010,6 +25026,10 @@
       ]
     }, 
     "pick up block and place it next to block so that top left corner of 20 touches the bottom right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 west", 
@@ -24054,6 +25074,10 @@
       ]
     }, 
     "block 10 and it so the right block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 west", 
         "9 south", 
@@ -24098,6 +25122,10 @@
       ]
     }, 
     "slide up so that it is directly to the right of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "3 east", 
         "3 south", 
@@ -24141,32 +25169,74 @@
         "3 east"
       ]
     }, 
-    "Pick up 8 and it so that the bottom corner of block 8 touches corner of block 6": {
+    "slide block 18 to the right and up so it is directly 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "7 east", 
-        "7 north", 
-        "7 north", 
-        "7 north", 
-        "7 north", 
-        "7 east", 
-        "7 north", 
-        "7 east", 
-        "7 west", 
+        "17 south", 
+        "17 south", 
+        "17 south", 
+        "17 south", 
+        "17 south", 
+        "17 east", 
         "Stop"
       ]
     }, 
-    "pick up block 20 and place it next to block 18 so that the left corner of block the bottom right of block 18": {
+    "up place it so right of 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "19 south", 
-        "19 south", 
-        "19 south", 
-        "19 south", 
-        "19 south", 
-        "19 west", 
-        "Stop"
+        "7 south", 
+        "7 west", 
+        "7 west", 
+        "7 west", 
+        "7 south", 
+        "12 west", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 east", 
+        "12 south", 
+        "12 east", 
+        "12 east", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south", 
+        "12 south"
       ]
     }, 
     "Pick place it to right block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 west", 
@@ -24211,6 +25281,10 @@
       ]
     }, 
     "Pick up block 6 it on between 11": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -24255,6 +25329,10 @@
       ]
     }, 
     "slide block up that it directly to the right of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "1 east", 
         "1 north", 
@@ -24280,6 +25358,10 @@
       ]
     }, 
     "lift up block 17 over block 16 and place it so that it directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -24324,6 +25406,10 @@
       ]
     }, 
     "slide block 18 to the right and then up so that it is directly block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -24335,6 +25421,10 @@
       ]
     }, 
     "Pick up block 10 place it so it is to right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -24379,6 +25469,10 @@
       ]
     }, 
     "up 17 over block place it that it 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -24423,6 +25517,10 @@
       ]
     }, 
     "Pick up block 6 and place it so it is on a diagonal between 11 and 20": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -24467,6 +25565,10 @@
       ]
     }, 
     "pick up block 20 and it next block 18 so that the left corner of 20 the bottom right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -24478,6 +25580,10 @@
       ]
     }, 
     "lift up block 17 over 16 and place it so that it is directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -24522,6 +25628,10 @@
       ]
     }, 
     "lift up block 17 over block 16 place it so that it is block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -24566,6 +25676,10 @@
       ]
     }, 
     "block 19 to diagonal so right 19 touches the bottom block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -24610,6 +25724,10 @@
       ]
     }, 
     "Pick block 6 and it it on diagonal and": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 north", 
         "5 north", 
@@ -24638,6 +25756,10 @@
       ]
     }, 
     "Pick up block and place it so it on diagonal between blocks 11 and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -24682,6 +25804,10 @@
       ]
     }, 
     "move block 19 to below block 20 at a diagonal so the top right corner of block 19 touches the of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -24726,6 +25852,10 @@
       ]
     }, 
     "move 16 up to right left corner block right corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -24733,6 +25863,10 @@
       ]
     }, 
     "move block 16 up and the right so that the left of 16 touches the bottom right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -24777,6 +25911,10 @@
       ]
     }, 
     "move block 16 up and to the right so that the left corner of block 16 touches the bottom right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -24821,6 +25959,10 @@
       ]
     }, 
     "pick up block and place it next to block 18 that the top left corner of block 20 touches the bottom right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 east", 
         "5 west", 
@@ -24847,6 +25989,10 @@
       ]
     }, 
     "pick up block 12 and it directly to the right block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -24891,6 +26037,10 @@
       ]
     }, 
     "move block 19 to below block 20 at a diagonal that the right 19 touches the bottom left": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -24935,6 +26085,10 @@
       ]
     }, 
     "lift block 17 over block 16 and it so that it is directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -24962,6 +26116,10 @@
       ]
     }, 
     "up block 20 and place next to block 18 so that the top left of block 20 the bottom right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -24973,6 +26131,10 @@
       ]
     }, 
     "move block 19 below block at diagonal the top corner of block touches the bottom corner of 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -24995,6 +26157,10 @@
       ]
     }, 
     "block it a diagonal between blocks 11 and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "10 south", 
         "10 south", 
@@ -25033,6 +26199,10 @@
       ]
     }, 
     "Pick up block 10 place it is directly the 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -25077,6 +26247,10 @@
       ]
     }, 
     "slide block 14 it is directly the right of 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -25092,6 +26266,10 @@
       ]
     }, 
     "slide block up that it is directly to the right of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "1 east", 
         "1 north", 
@@ -25116,51 +26294,26 @@
         "Stop"
       ]
     }, 
-    "up place it so right of 8": {
+    "pick up block 20 and place it next to block 18 so that the left corner of block the bottom right of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "7 south", 
-        "7 west", 
-        "7 west", 
-        "7 west", 
-        "7 south", 
-        "12 west", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 east", 
-        "12 south", 
-        "12 east", 
-        "12 east", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south"
+        "19 south", 
+        "19 south", 
+        "19 south", 
+        "19 south", 
+        "19 south", 
+        "19 west", 
+        "Stop"
       ]
     }, 
     "move to at so the top right 19 corner 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 south", 
         "5 west", 
@@ -25188,6 +26341,10 @@
       ]
     }, 
     "so it is directly to right": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 south", 
         "5 west", 
@@ -25232,6 +26389,10 @@
       ]
     }, 
     "Pick block 10 and it so is to the of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -25276,6 +26437,10 @@
       ]
     }, 
     "move 16 the top corner of the right corner 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -25320,6 +26485,10 @@
       ]
     }, 
     "move block 16 up and to the right so that the top left corner of 16 touches the bottom right of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -25364,6 +26533,10 @@
       ]
     }, 
     "Pick up block 8 it so that the left corner block 8 touches the top right corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -25408,6 +26581,10 @@
       ]
     }, 
     "Pick up block 8 and move it so that the bottom left corner of block 8 touches the top right corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -25451,14 +26628,11 @@
         "7 east"
       ]
     }, 
-    "move block 16 up and right so that the top left corner of touches the bottom of 14": {
-      "actions": [
-        "15 south", 
-        "15 west", 
-        "Stop"
-      ]
-    }, 
     "16 up and to right that the top left corner of block 16 touches the bottom right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -25466,6 +26640,10 @@
       ]
     }, 
     "block and move it that the bottom left corner 8 touches corner block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "4 south", 
         "4 north", 
@@ -25510,6 +26688,10 @@
       ]
     }, 
     "move and to the right so that the top left corner of block 16 the bottom of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -25554,6 +26736,10 @@
       ]
     }, 
     "19 below block 20 at diagonal so that the top right corner of block of 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -25572,6 +26758,10 @@
       ]
     }, 
     "slide block 18 to the right then up so that it is directly under 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -25583,6 +26773,10 @@
       ]
     }, 
     "up block 17 block it that is directly 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -25627,6 +26821,10 @@
       ]
     }, 
     "Pick block 10 and it is directly of 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -25671,6 +26869,10 @@
       ]
     }, 
     "move block 19 to below block 20 at a diagonal that the right corner of block 19 touches the bottom left corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -25715,6 +26917,10 @@
       ]
     }, 
     "move block 19 to below 20 that top right corner of block touches the bottom left of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -25759,6 +26965,10 @@
       ]
     }, 
     "slide to right then so that it is directly block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 east", 
@@ -25803,6 +27013,10 @@
       ]
     }, 
     "up 10 it so it is to the of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -25847,6 +27061,10 @@
       ]
     }, 
     "pick up block and place it block 18 so that the top left corner of block 20 bottom right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 east", 
         "15 north", 
@@ -25861,6 +27079,10 @@
       ]
     }, 
     "pick 12 place directly to the right of 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -25893,6 +27115,10 @@
       ]
     }, 
     "move block 19 to below 20 a diagonal so that the top right corner of touches the left of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -25937,6 +27163,10 @@
       ]
     }, 
     "below block 20 at a diagonal the top right the bottom left corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -25954,6 +27184,10 @@
       ]
     }, 
     "Pick up 6 and place it so it is a diagonal between 11 and 20": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -25998,6 +27232,10 @@
       ]
     }, 
     "block 16 up and to right so that the top left corner of 16 touches the bottom corner of 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -26008,6 +27246,10 @@
       ]
     }, 
     "slide 18 the right and then so that it is under": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -26019,6 +27261,10 @@
       ]
     }, 
     "Pick up block place it is a diagonal between blocks 11 and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 east", 
@@ -26063,6 +27309,10 @@
       ]
     }, 
     "up it to block 18 so that the touches the bottom right corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 east", 
         "17 south", 
@@ -26076,7 +27326,59 @@
         "Stop"
       ]
     }, 
+    "up block it so is the right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "3 east", 
+        "3 south", 
+        "3 south", 
+        "3 south", 
+        "3 north", 
+        "3 south", 
+        "3 south", 
+        "3 west", 
+        "3 south", 
+        "3 east", 
+        "3 west", 
+        "5 east", 
+        "5 south", 
+        "5 east", 
+        "5 west", 
+        "5 east", 
+        "3 west", 
+        "3 east", 
+        "3 east", 
+        "3 south", 
+        "3 east", 
+        "3 south", 
+        "3 east", 
+        "3 west", 
+        "3 east", 
+        "3 south", 
+        "3 east", 
+        "3 south", 
+        "3 north", 
+        "3 east", 
+        "3 south", 
+        "3 east", 
+        "3 west", 
+        "3 east", 
+        "3 east", 
+        "3 west", 
+        "3 east", 
+        "3 east", 
+        "3 west", 
+        "3 east"
+      ]
+    }, 
     "up block 12 and place it directly the right block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -26106,6 +27408,10 @@
       ]
     }, 
     "Pick 6 and it so is on blocks 11": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 north", 
         "5 north", 
@@ -26131,6 +27437,10 @@
       ]
     }, 
     "Pick up left touches the right corner of 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 south", 
@@ -26175,6 +27485,10 @@
       ]
     }, 
     "Pick place it it is directly to the right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 west", 
@@ -26219,6 +27533,10 @@
       ]
     }, 
     "move block 16 up and to the the top left of 16 bottom corner block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -26263,6 +27581,10 @@
       ]
     }, 
     "slide block 18 to and then up it is directly under 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -26274,6 +27596,10 @@
       ]
     }, 
     "lift up over block and it is 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -26295,6 +27621,10 @@
       ]
     }, 
     "10 and place so to right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 west", 
         "9 south", 
@@ -26339,6 +27669,10 @@
       ]
     }, 
     "block 6 it so it is a 11 and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 south", 
         "5 north", 
@@ -26366,6 +27700,10 @@
       ]
     }, 
     "slide block 18 to the right and then up that is directly under block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -26377,6 +27715,10 @@
       ]
     }, 
     "up block 8 and move it so bottom left of block touches the top right corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -26421,6 +27763,10 @@
       ]
     }, 
     "and next to block that the top corner of 20 touches bottom right block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "6 south", 
         "6 south", 
@@ -26465,6 +27811,10 @@
       ]
     }, 
     "block 16 the the left corner block the bottom block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -26509,6 +27859,10 @@
       ]
     }, 
     "slide block 14 up so that is directly to the right of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -26553,6 +27907,10 @@
       ]
     }, 
     "move block 19 to below block at a diagonal that top right 19 touches the left corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -26575,6 +27933,10 @@
       ]
     }, 
     "Pick up block 8 and move it so that bottom left corner of block touches the top right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -26619,6 +27981,10 @@
       ]
     }, 
     "block and to that the of block bottom of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 east", 
         "5 west", 
@@ -26654,6 +28020,10 @@
       ]
     }, 
     "block 10 and place it so it is directly the right block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -26698,6 +28068,10 @@
       ]
     }, 
     "and place it next block 18 so the top corner 20 touches bottom right block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 west", 
@@ -26742,6 +28116,10 @@
       ]
     }, 
     "up it it on a diagonal between blocks 11": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "12 east", 
         "12 south", 
@@ -26786,6 +28164,10 @@
       ]
     }, 
     "move 16 up and to the that the top left corner of block 16 touches the bottom right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -26793,6 +28175,10 @@
       ]
     }, 
     "12 and place it directly to the right of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -26814,6 +28200,10 @@
       ]
     }, 
     "up block 10 and it so it directly the of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -26857,51 +28247,59 @@
         "9 west"
       ]
     }, 
-    "slide block 14 up that it is directly to the right of block 12": {
+    "block 10 and place it so it is right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "13 east", 
-        "13 east", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south", 
-        "13 north", 
-        "13 north", 
-        "13 south"
+        "9 south", 
+        "9 west", 
+        "9 south", 
+        "9 south", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west", 
+        "9 west"
       ]
     }, 
     "slide block the right and then up so that is directly under block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "8 east", 
         "8 east", 
@@ -26930,21 +28328,11 @@
         "Stop"
       ]
     }, 
-    "block to below a diagonal top right corner of block touches corner of": {
-      "actions": [
-        "5 south", 
-        "5 west", 
-        "5 west", 
-        "5 west", 
-        "5 south", 
-        "5 south", 
-        "5 west", 
-        "5 west", 
-        "5 north", 
-        "Stop"
-      ]
-    }, 
     "slide block 18 to the right and then up so that it is directly under block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -26956,6 +28344,10 @@
       ]
     }, 
     "up 20 it next to block so that corner of touches the corner of 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -26967,6 +28359,10 @@
       ]
     }, 
     "slide 18 to and then up so it is under block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -26978,6 +28374,10 @@
       ]
     }, 
     "pick up block 20 and place it next to block 18 so that the top left corner of block 20 touches the bottom right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -26989,6 +28389,10 @@
       ]
     }, 
     "Pick up block 6 and place it so it is a diagonal between blocks 11 and 20": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -27033,6 +28437,10 @@
       ]
     }, 
     "Pick up block 6 it is on a diagonal between": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -27069,6 +28477,10 @@
       ]
     }, 
     "up block 10 and place so it is directly to block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -27113,6 +28525,10 @@
       ]
     }, 
     "up block 6 and place it so it is diagonal between blocks 11 and": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -27157,6 +28573,10 @@
       ]
     }, 
     "move block the right so the top corner of block 16 the bottom corner of 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 west", 
@@ -27201,6 +28621,10 @@
       ]
     }, 
     "Pick up block 6 and place it so it on a diagonal between blocks 11 and": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -27245,6 +28669,10 @@
       ]
     }, 
     "move block 19 to 20 at diagonal the right corner of touches the bottom left of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -27289,6 +28717,10 @@
       ]
     }, 
     "up and it so is a blocks": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "12 east", 
         "12 south", 
@@ -27333,6 +28765,10 @@
       ]
     }, 
     "Pick up block 8 move it so that the bottom left of block 8 right 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -27377,6 +28813,10 @@
       ]
     }, 
     "Pick up 6 and place so it is on diagonal between blocks 11 and": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -27421,6 +28861,10 @@
       ]
     }, 
     "up and to the right so that left of block 16 touches the bottom corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 east", 
         "15 north", 
@@ -27465,6 +28909,10 @@
       ]
     }, 
     "pick up 12 directly the block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -27498,6 +28946,10 @@
       ]
     }, 
     "up block 20 and place it next block 18 top left corner block touches corner of 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -27509,6 +28961,10 @@
       ]
     }, 
     "move 16 up and the right so top left block touches the corner 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -27516,6 +28972,10 @@
       ]
     }, 
     "move block to block 20 at a diagonal so that the top right of block 19 the bottom left corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -27526,27 +28986,14 @@
         "19 west", 
         "19 north", 
         "19 north", 
-        "Stop"
-      ]
-    }, 
-    "move 20 a the top right block touches corner of": {
-      "actions": [
-        "19 south", 
-        "19 north", 
-        "19 south", 
-        "19 east", 
-        "19 north", 
-        "19 west", 
-        "19 north", 
-        "19 west", 
-        "19 north", 
-        "19 north", 
-        "19 south", 
-        "19 east", 
         "Stop"
       ]
     }, 
     "pick up block 20 and it next to block 18 so top corner of block 20 the right corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -27558,6 +29005,10 @@
       ]
     }, 
     "pick up block 20 and place it next to block 18 so that the top of block 20 touches the bottom right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -27569,6 +29020,10 @@
       ]
     }, 
     "pick up block place block so left of 20 touches of 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "3 east", 
         "3 south", 
@@ -27613,6 +29068,10 @@
       ]
     }, 
     "slide 18 to the and then so block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -27622,6 +29081,10 @@
       ]
     }, 
     "pick up 20 and place it to 18 so that the top corner of touches the bottom right of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -27633,6 +29096,10 @@
       ]
     }, 
     "move up and the right so that the left corner block touches right corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -27677,6 +29144,10 @@
       ]
     }, 
     "Pick up block 6 place it so it is on a diagonal between blocks 11 and 20": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -27721,6 +29192,10 @@
       ]
     }, 
     "Pick up 10 and place so directly to the of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -27765,6 +29240,10 @@
       ]
     }, 
     "18 to the right then it is under block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -27776,6 +29255,10 @@
       ]
     }, 
     "lift up block 17 over block 16 and place it that it is directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -27820,6 +29303,10 @@
       ]
     }, 
     "block and place it it directly the right of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "8 east", 
         "8 east", 
@@ -27864,6 +29351,10 @@
       ]
     }, 
     "pick up block and place it directly the of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -27908,6 +29399,10 @@
       ]
     }, 
     "slide block 14 so that it is directly to the right of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -27932,6 +29427,10 @@
       ]
     }, 
     "pick block 20 and it next to 18 so that the left corner block touches the bottom corner of 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -27942,18 +29441,11 @@
         "Stop"
       ]
     }, 
-    "slide block 18 to the right and then up so that is directly under": {
-      "actions": [
-        "17 south", 
-        "17 south", 
-        "17 south", 
-        "17 south", 
-        "17 south", 
-        "17 east", 
-        "Stop"
-      ]
-    }, 
     "Pick up block 10 and place it so it directly to right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -27998,6 +29490,10 @@
       ]
     }, 
     "up 17 place it that it directly": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -28042,6 +29538,10 @@
       ]
     }, 
     "14 it directly right of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -28057,6 +29557,10 @@
       ]
     }, 
     "up and to the right so that the top left corner of block 16 touches the bottom right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 east", 
         "15 north", 
@@ -28101,6 +29605,10 @@
       ]
     }, 
     "16 up to so that the top left corner of 16 touches right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -28108,6 +29616,10 @@
       ]
     }, 
     "slide the and up that it under block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 east", 
         "15 north", 
@@ -28152,6 +29664,10 @@
       ]
     }, 
     "move block 16 so that the top of block 16 bottom corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -28196,6 +29712,10 @@
       ]
     }, 
     "lift up block over so that is block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -28240,6 +29760,10 @@
       ]
     }, 
     "Pick up block 10 place directly to the right": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -28284,6 +29808,10 @@
       ]
     }, 
     "slide 14 up so that it is directly to of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -28328,6 +29856,10 @@
       ]
     }, 
     "lift up block 17 over block 16 and place it so it is directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -28372,6 +29904,10 @@
       ]
     }, 
     "Pick up 8 and move it that the corner of block corner 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -28416,6 +29952,10 @@
       ]
     }, 
     "block 14 up so it directly the block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -28460,6 +30000,10 @@
       ]
     }, 
     "Pick block 8 so that bottom of the top right block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 west", 
         "7 north", 
@@ -28504,6 +30048,10 @@
       ]
     }, 
     "8 and move so corner block touches the top right": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -28548,6 +30096,10 @@
       ]
     }, 
     "move block 16 up and to the right so that the top left corner block 16 touches the bottom right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -28592,6 +30144,10 @@
       ]
     }, 
     "up 12 and place it to right block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -28621,6 +30177,10 @@
       ]
     }, 
     "slide up so that it is directly to the right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "3 east", 
         "3 south", 
@@ -28665,6 +30225,10 @@
       ]
     }, 
     "Pick up block 10 and place is directly the of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -28709,6 +30273,10 @@
       ]
     }, 
     "up block and place it is between 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -28753,6 +30321,10 @@
       ]
     }, 
     "move 19 to below block 20 a so that the top right corner of block touches the bottom left of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -28796,25 +30368,11 @@
         "16 south"
       ]
     }, 
-    "move block 19 to below block 20 at a diagonal so that the top right corner of block 19 touches bottom left of block 20": {
-      "actions": [
-        "18 south", 
-        "18 south", 
-        "18 west", 
-        "18 south", 
-        "18 south", 
-        "18 south", 
-        "19 west", 
-        "19 north", 
-        "19 north", 
-        "19 north", 
-        "19 south", 
-        "19 east", 
-        "19 north", 
-        "Stop"
-      ]
-    }, 
     "pick up block 12 and place it directly to the right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -28859,6 +30417,10 @@
       ]
     }, 
     "block 6 and place so on blocks 11 and": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -28889,6 +30451,10 @@
       ]
     }, 
     "block 14 up that directly to right block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -28933,6 +30499,10 @@
       ]
     }, 
     "slide 14 up it is of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -28976,51 +30546,35 @@
         "13 south"
       ]
     }, 
-    "up block it so is the right of block": {
+    "lift up 17 block 16 place so is directly block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "3 east", 
-        "3 south", 
-        "3 south", 
-        "3 south", 
-        "3 north", 
-        "3 south", 
-        "3 south", 
-        "3 west", 
-        "3 south", 
-        "3 east", 
-        "3 west", 
-        "5 east", 
-        "5 south", 
-        "5 east", 
-        "5 west", 
-        "5 east", 
-        "3 west", 
-        "3 east", 
-        "3 east", 
-        "3 south", 
-        "3 east", 
-        "3 south", 
-        "3 east", 
-        "3 west", 
-        "3 east", 
-        "3 south", 
-        "3 east", 
-        "3 south", 
-        "3 north", 
-        "3 east", 
-        "3 south", 
-        "3 east", 
-        "3 west", 
-        "3 east", 
-        "3 east", 
-        "3 west", 
-        "3 east", 
-        "3 east", 
-        "3 west", 
-        "3 east"
+        "15 south", 
+        "15 north", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 west", 
+        "15 west", 
+        "15 north", 
+        "15 west", 
+        "15 north", 
+        "15 west", 
+        "15 west", 
+        "15 north", 
+        "15 south", 
+        "Stop"
       ]
     }, 
     "up 6 on a diagonal 11 20": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -29064,35 +30618,33 @@
         "5 west"
       ]
     }, 
-    "Pick block 6 and place it so it on a diagonal between 11 and 20": {
+    "move block 19 to below block 20 at a diagonal so that the top right corner of block 19 touches bottom left of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "5 north", 
-        "5 north", 
-        "5 north", 
-        "5 north", 
-        "5 north", 
-        "5 north", 
-        "5 south", 
-        "5 north", 
-        "5 north", 
-        "5 west", 
-        "5 north", 
-        "5 west", 
-        "5 north", 
-        "5 north", 
-        "5 north", 
-        "5 west", 
-        "5 north", 
-        "5 west", 
-        "5 west", 
-        "5 west", 
-        "5 north", 
-        "5 north", 
-        "5 south", 
+        "18 south", 
+        "18 south", 
+        "18 west", 
+        "18 south", 
+        "18 south", 
+        "18 south", 
+        "19 west", 
+        "19 north", 
+        "19 north", 
+        "19 north", 
+        "19 south", 
+        "19 east", 
+        "19 north", 
         "Stop"
       ]
     }, 
     "move block 16 up and to the right so that the top left corner of block 16 touches the bottom right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -29137,6 +30689,10 @@
       ]
     }, 
     "pick up block 20 and place it next to block 18 so that the top left corner of block 20 touches the bottom right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -29148,6 +30704,10 @@
       ]
     }, 
     "move block 19 to block 20 at a diagonal so the top right corner of block 19 the bottom left corner of 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -29192,6 +30752,10 @@
       ]
     }, 
     "Pick up block 10 and place it so it directly the of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -29236,6 +30800,10 @@
       ]
     }, 
     "Pick up block it so is diagonal": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 east", 
         "9 south", 
@@ -29252,6 +30820,10 @@
       ]
     }, 
     "slide block 18 to the and then so that it is under block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -29263,6 +30835,10 @@
       ]
     }, 
     "block the and then up so that it directly under block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 east", 
         "15 north", 
@@ -29307,6 +30883,10 @@
       ]
     }, 
     "lift block 17 over block and that is 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -29351,6 +30931,10 @@
       ]
     }, 
     "move block up and the so that top left block 16 the right corner block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -29370,6 +30954,10 @@
       ]
     }, 
     "up block 10 place it it to 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -29414,6 +31002,10 @@
       ]
     }, 
     "move block 19 to below block 20 at a diagonal so that the top corner of block 19 bottom left block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -29433,6 +31025,10 @@
       ]
     }, 
     "slide block 14 up so that it directly the": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -29477,6 +31073,10 @@
       ]
     }, 
     "lift block 17 over block 16 place it so that it is directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -29504,6 +31104,10 @@
       ]
     }, 
     "slide block up so that it is directly the right block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "1 east", 
         "1 north", 
@@ -29548,6 +31152,10 @@
       ]
     }, 
     "block and move the left corner of 8 touches the corner block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 south", 
         "0 south", 
@@ -29592,6 +31200,10 @@
       ]
     }, 
     "move block to below 20 at a diagonal so that the top right of block 19 touches the bottom left corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "6 south", 
         "6 south", 
@@ -29608,6 +31220,10 @@
       ]
     }, 
     "up block 12 and it directly of 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -29637,6 +31253,10 @@
       ]
     }, 
     "18 the then so it directly block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -29648,6 +31268,10 @@
       ]
     }, 
     "block 8 and so that bottom block the corner 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 west", 
         "7 north", 
@@ -29692,6 +31316,10 @@
       ]
     }, 
     "move block 16 to the right so that the top of block the bottom block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -29736,6 +31364,10 @@
       ]
     }, 
     "so that bottom left corner of 8 touches top right of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -29780,6 +31412,10 @@
       ]
     }, 
     "Pick up block 8 move it so that bottom left of 8 touches the top right corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -29824,6 +31460,10 @@
       ]
     }, 
     "slide block 14 up so that it is directly to the right of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -29868,6 +31508,10 @@
       ]
     }, 
     "slide 18 the up so that is block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -29877,6 +31521,10 @@
       ]
     }, 
     "pick block 12 and place it directly to the right of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -29903,6 +31551,10 @@
       ]
     }, 
     "pick 12 and it directly to the right of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -29929,6 +31581,10 @@
       ]
     }, 
     "move block up and to the right that the top left corner of block 16 touches the right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -29973,6 +31629,10 @@
       ]
     }, 
     "Pick 8 so the bottom left of 8 touches corner block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -30017,6 +31677,10 @@
       ]
     }, 
     "pick up block 20 to block 18 corner block touches of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -30028,6 +31692,10 @@
       ]
     }, 
     "slide block to the and then up so it directly under block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "4 south", 
         "4 north", 
@@ -30072,6 +31740,10 @@
       ]
     }, 
     "move block 19 to below block 20 at a the top right block 19 touches bottom left corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -30115,51 +31787,29 @@
         "16 south"
       ]
     }, 
-    "move block 16 up and to right so that the top left corner block 16 the bottom right corner block": {
+    "block to below a diagonal top right corner of block touches corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "15 south", 
-        "15 west", 
-        "15 south", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 south"
+        "5 south", 
+        "5 west", 
+        "5 west", 
+        "5 west", 
+        "5 south", 
+        "5 south", 
+        "5 west", 
+        "5 west", 
+        "5 north", 
+        "Stop"
       ]
     }, 
     "pick 20 and place it next to block 18 corner of 20 touches the bottom right block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -30171,6 +31821,10 @@
       ]
     }, 
     "pick up 12 and directly the 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -30197,6 +31851,10 @@
       ]
     }, 
     "Pick up block 6 place it is diagonal between blocks 11 and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -30227,6 +31885,10 @@
       ]
     }, 
     "Pick up block 8 and move so left 8 touches top right corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -30271,6 +31933,10 @@
       ]
     }, 
     "lift up block over block and place so is directly below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -30315,6 +31981,10 @@
       ]
     }, 
     "Pick up block 10 and place it it is directly to the right of 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -30358,76 +32028,11 @@
         "9 west"
       ]
     }, 
-    "over place it that directly below block": {
-      "actions": [
-        "13 south", 
-        "13 west", 
-        "13 south", 
-        "13 west", 
-        "13 north", 
-        "13 west", 
-        "13 north", 
-        "13 north", 
-        "13 west", 
-        "13 west", 
-        "13 west", 
-        "13 west", 
-        "13 west", 
-        "13 north", 
-        "13 west", 
-        "13 north", 
-        "13 west", 
-        "13 north", 
-        "13 west", 
-        "Stop"
-      ]
-    }, 
-    "move 16 and to top left corner touches the corner block 14": {
-      "actions": [
-        "15 south", 
-        "15 west", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "Stop"
-      ]
-    }, 
-    "move block to block at a diagonal so that the top right corner of block the bottom left corner of 20": {
-      "actions": [
-        "5 south", 
-        "5 west", 
-        "5 west", 
-        "5 west", 
-        "5 south", 
-        "5 south", 
-        "5 west", 
-        "5 west", 
-        "5 north", 
-        "Stop"
-      ]
-    }, 
-    "20 to 18 that left corner of 20 touches right corner block": {
-      "actions": [
-        "19 south", 
-        "19 south", 
-        "19 south", 
-        "19 south", 
-        "19 south", 
-        "19 west", 
-        "Stop"
-      ]
-    }, 
-    "move block 16 up and to right so that the top left corner of block 16 touches the bottom corner of block 14": {
-      "actions": [
-        "15 south", 
-        "15 west", 
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "Stop"
-      ]
-    }, 
-    "pick up 12 and it directly right of block": {
+    "pick up block 12 and place it the right block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -30471,7 +32076,148 @@
         "11 west"
       ]
     }, 
+    "over place it that directly below block": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "13 south", 
+        "13 west", 
+        "13 south", 
+        "13 west", 
+        "13 north", 
+        "13 west", 
+        "13 north", 
+        "13 north", 
+        "13 west", 
+        "13 west", 
+        "13 west", 
+        "13 west", 
+        "13 west", 
+        "13 north", 
+        "13 west", 
+        "13 north", 
+        "13 west", 
+        "13 north", 
+        "13 west", 
+        "Stop"
+      ]
+    }, 
+    "move 16 and to top left corner touches the corner block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "15 south", 
+        "15 west", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "Stop"
+      ]
+    }, 
+    "move block to block at a diagonal so that the top right corner of block the bottom left corner of 20": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "5 south", 
+        "5 west", 
+        "5 west", 
+        "5 west", 
+        "5 south", 
+        "5 south", 
+        "5 west", 
+        "5 west", 
+        "5 north", 
+        "Stop"
+      ]
+    }, 
+    "20 to 18 that left corner of 20 touches right corner block": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "19 south", 
+        "19 south", 
+        "19 south", 
+        "19 south", 
+        "19 south", 
+        "19 west", 
+        "Stop"
+      ]
+    }, 
+    "move block 16 up and to right so that the top left corner of block 16 touches the bottom corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "15 south", 
+        "15 west", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "Stop"
+      ]
+    }, 
+    "Pick up place a diagonal between blocks 11 20": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "10 south", 
+        "10 south", 
+        "10 south", 
+        "10 west", 
+        "10 south", 
+        "10 south", 
+        "10 west", 
+        "10 south", 
+        "10 north", 
+        "10 south", 
+        "10 west", 
+        "10 north", 
+        "10 south", 
+        "10 north", 
+        "10 south", 
+        "10 west", 
+        "10 north", 
+        "10 south", 
+        "10 north", 
+        "10 south", 
+        "10 north", 
+        "10 south", 
+        "10 west", 
+        "10 north", 
+        "10 south", 
+        "10 north", 
+        "10 south", 
+        "10 north", 
+        "10 south", 
+        "10 north", 
+        "10 south", 
+        "10 west", 
+        "10 north", 
+        "10 south", 
+        "10 north", 
+        "10 south", 
+        "10 north", 
+        "10 south", 
+        "10 west", 
+        "10 north"
+      ]
+    }, 
     "block 18 to the right and so that it is directly block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -30483,6 +32229,10 @@
       ]
     }, 
     "up block 8 so the left corner of block the of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -30527,6 +32277,10 @@
       ]
     }, 
     "pick up 20 place it next to block so top left corner of 20 touches the right corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -30538,6 +32292,10 @@
       ]
     }, 
     "move 16 up and the so that the top left corner of block 16 touches the bottom right corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -30545,6 +32303,10 @@
       ]
     }, 
     "pick up block and place it next to block 18 so the top of block 20 touches the corner block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 south", 
@@ -30589,6 +32351,10 @@
       ]
     }, 
     "slide block 18 to the right then up it directly 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -30600,6 +32366,10 @@
       ]
     }, 
     "slide to right then up so is 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 west", 
@@ -30644,6 +32414,10 @@
       ]
     }, 
     "move block 16 up and to the right so the top left corner of block 16 touches the bottom corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -30688,6 +32462,10 @@
       ]
     }, 
     "up 17 over block and so that it 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -30732,6 +32510,10 @@
       ]
     }, 
     "17 over block 16 it so it block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -30759,6 +32541,10 @@
       ]
     }, 
     "block 8 bottom corner 8 the top right corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -30802,25 +32588,43 @@
         "7 west"
       ]
     }, 
-    "block block 16 so is directly block": {
+    "Pick block 6 and place it so it on a diagonal between 11 and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "15 south", 
-        "15 north", 
-        "15 south", 
-        "15 north", 
-        "15 north", 
-        "15 west", 
-        "15 west", 
-        "15 west", 
-        "15 north", 
-        "15 west", 
-        "15 west", 
-        "15 north", 
-        "15 south", 
+        "5 north", 
+        "5 north", 
+        "5 north", 
+        "5 north", 
+        "5 north", 
+        "5 north", 
+        "5 south", 
+        "5 north", 
+        "5 north", 
+        "5 west", 
+        "5 north", 
+        "5 west", 
+        "5 north", 
+        "5 north", 
+        "5 north", 
+        "5 west", 
+        "5 north", 
+        "5 west", 
+        "5 west", 
+        "5 west", 
+        "5 north", 
+        "5 north", 
+        "5 south", 
         "Stop"
       ]
     }, 
     "move block 20 at so that top touches the bottom left corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -30865,6 +32669,10 @@
       ]
     }, 
     "Pick up and move it the left block 8 touches the 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -30909,6 +32717,10 @@
       ]
     }, 
     "Pick up block 6 and place it so it a diagonal between blocks 11 and 20": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -30953,6 +32765,10 @@
       ]
     }, 
     "up 10 place so it the right block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -30996,7 +32812,59 @@
         "9 west"
       ]
     }, 
+    "slide block 14 up that it is directly to the right of block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
+      "actions": [
+        "13 east", 
+        "13 east", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south", 
+        "13 north", 
+        "13 north", 
+        "13 south"
+      ]
+    }, 
     "pick up block 20 and place it next to block 18 so that top corner of block 20 the right corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -31008,6 +32876,10 @@
       ]
     }, 
     "Pick up block 6 and it it on a diagonal blocks 11 and 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -31052,6 +32924,10 @@
       ]
     }, 
     "Pick up 8 and move it so that the bottom corner of block 8 touches the top right corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -31066,6 +32942,10 @@
       ]
     }, 
     "pick up 20 and place block left of block 20 touches bottom right corner 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -31077,6 +32957,10 @@
       ]
     }, 
     "move block 19 to below at a diagonal so that top corner of block touches the left of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -31121,6 +33005,10 @@
       ]
     }, 
     "Pick up and place so it is directly the 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 east", 
         "9 south", 
@@ -31165,6 +33053,10 @@
       ]
     }, 
     "pick 12 and place directly to right of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 south", 
         "11 north", 
@@ -31204,6 +33096,10 @@
       ]
     }, 
     "move block 16 up to the right so that top left of block 16 touches bottom corner of block 14": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -31248,6 +33144,10 @@
       ]
     }, 
     "Pick block 8 and it so that the left of block touches corner of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 south", 
         "7 north", 
@@ -31292,6 +33192,10 @@
       ]
     }, 
     "up 12 and place the of 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -31336,6 +33240,10 @@
       ]
     }, 
     "move block 16 and the the top of 16 corner block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -31380,6 +33288,10 @@
       ]
     }, 
     "Pick block 6 place it on 11": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -31409,6 +33321,10 @@
       ]
     }, 
     "move 19 to below block 20 at a diagonal so that the top corner of 19 touches the bottom left of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -31453,6 +33369,10 @@
       ]
     }, 
     "slide block 18 to and it directly block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -31461,51 +33381,32 @@
         "Stop"
       ]
     }, 
-    "to the right and then up so is directly under 17": {
+    "move 20 a the top right block touches corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
-        "12 south", 
-        "7 south", 
-        "7 south", 
-        "7 east", 
-        "8 west", 
-        "8 south", 
-        "8 south", 
-        "8 west", 
-        "8 south", 
-        "8 south", 
-        "8 south", 
-        "8 south", 
-        "8 east", 
-        "8 south", 
-        "7 east", 
-        "8 west", 
-        "8 east", 
-        "8 west", 
-        "8 east", 
-        "8 west", 
-        "8 east", 
-        "8 west", 
-        "8 east", 
-        "8 west", 
-        "8 east", 
-        "8 west", 
-        "8 east", 
-        "8 west", 
-        "8 east", 
-        "8 west", 
-        "8 east", 
-        "8 west", 
-        "8 east", 
-        "8 west", 
-        "8 east", 
-        "8 west", 
-        "8 east", 
-        "8 west", 
-        "8 east", 
-        "8 west"
+        "19 south", 
+        "19 north", 
+        "19 south", 
+        "19 east", 
+        "19 north", 
+        "19 west", 
+        "19 north", 
+        "19 west", 
+        "19 north", 
+        "19 north", 
+        "19 south", 
+        "19 east", 
+        "Stop"
       ]
     }, 
     "slide right then that it under block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "10 west", 
         "10 south", 
@@ -31550,6 +33451,10 @@
       ]
     }, 
     "pick block 20 to 18 so top left corner of block touches the corner of 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -31561,6 +33466,10 @@
       ]
     }, 
     "block 20 a so that top right block corner block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -31605,6 +33514,10 @@
       ]
     }, 
     "slide block 18 to right and then up so that it is directly under block 17": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "17 south", 
         "17 south", 
@@ -31616,6 +33529,10 @@
       ]
     }, 
     "17 over block 16 and it that is block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -31643,6 +33560,10 @@
       ]
     }, 
     "pick up block 20 and place it to block 18 so the top left of block touches the bottom right corner": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -31654,6 +33575,10 @@
       ]
     }, 
     "16 up and to the so that the top left corner of block 16 touches bottom of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -31661,6 +33586,10 @@
       ]
     }, 
     "slide to right and then up so it is under block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 west", 
@@ -31705,6 +33634,10 @@
       ]
     }, 
     "up block block place it so that it below block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "1 east", 
         "1 north", 
@@ -31749,6 +33682,10 @@
       ]
     }, 
     "Pick block 10 and place it so it is directly to right of block 8": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "9 south", 
         "9 west", 
@@ -31793,6 +33730,10 @@
       ]
     }, 
     "move block up to right the left of block 16 touches the right corner of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -31837,6 +33778,10 @@
       ]
     }, 
     "up 20 and place it next to block 18 so that the top left corner of block 20 touches the right corner of block 18": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 south", 
@@ -31848,6 +33793,10 @@
       ]
     }, 
     "Pick block 8 and move it so that the bottom left corner block touches the top right of block 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 east", 
         "7 north", 
@@ -31862,6 +33811,10 @@
       ]
     }, 
     "lift up 17 over 16 and place it so that it is directly block 16": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "16 south", 
         "16 west", 
@@ -31906,6 +33859,10 @@
       ]
     }, 
     "pick up block 12 to the": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -31950,6 +33907,10 @@
       ]
     }, 
     "move block 19 to below block 20 at a diagonal so that the top right corner of block 19 touches the bottom corner of block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "18 south", 
         "18 south", 
@@ -31994,6 +33955,10 @@
       ]
     }, 
     "move below 20 at a diagonal so top right bottom corner block 20": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "19 south", 
         "19 north", 
@@ -32010,30 +33975,59 @@
         "Stop"
       ]
     }, 
-    "and then so it directly under block": {
+    "move block 16 up and to right so that the top left corner block 16 the bottom right corner block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
+        "15 west", 
+        "15 south", 
+        "15 south", 
         "15 north", 
+        "15 south", 
         "15 north", 
+        "15 south", 
         "15 north", 
-        "12 west", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 south", 
-        "12 east", 
-        "13 east", 
-        "12 west", 
-        "12 south", 
-        "12 east", 
-        "12 south", 
-        "Stop"
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south", 
+        "15 north", 
+        "15 south"
       ]
     }, 
     "block up so that directly to the block 12": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "0 east", 
         "0 south", 
@@ -32078,6 +34072,10 @@
       ]
     }, 
     "block 14 so that is to right of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 south", 
         "13 north", 
@@ -32102,6 +34100,10 @@
       ]
     }, 
     "pick up block 12 and it directly the right of 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -32146,6 +34148,10 @@
       ]
     }, 
     "block 14 up that it is directly to the of block": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "13 east", 
         "13 east", 
@@ -32190,6 +34196,10 @@
       ]
     }, 
     "block 16 up and the right so that the top left corner block touches the bottom right corner of": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "15 south", 
         "15 west", 
@@ -32197,6 +34207,10 @@
       ]
     }, 
     "Pick up block 6 place it so it is on a diagonal between and": {
+      "phi": [
+        0, 
+        1
+      ], 
       "actions": [
         "5 east", 
         "5 north", 
@@ -32241,6 +34255,10 @@
       ]
     }, 
     "pick up block 12 and place it directly the right of block 10": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "11 east", 
         "11 north", 
@@ -32285,6 +34303,10 @@
       ]
     }, 
     "Pick 8 and it that the bottom left of right corner 6": {
+      "phi": [
+        1, 
+        0
+      ], 
       "actions": [
         "7 west", 
         "7 north", 
